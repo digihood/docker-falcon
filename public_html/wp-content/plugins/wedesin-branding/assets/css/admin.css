@@ -1,0 +1,391 @@
+/* ==========================================================================
+   digihood branding — Reporter Page Styles
+   (Shared design system is in admin-pages.css)
+   ========================================================================== */
+
+:root {
+    --dh-orange: #ff817e;
+    --dh-orange-hover: #e06e6b;
+    --dh-dark: #1a1a1a;
+    --dh-dark-light: #2a2a2a;
+    --dh-white: #ffffff;
+    --dh-text: #333333;
+    --dh-text-light: #666666;
+    --dh-text-muted: #999999;
+    --dh-success: #4caf50;
+    --dh-error: #e53935;
+    --dh-warning: #ff9800;
+    --dh-radius: 30px;
+    --dh-radius-sm: 15px;
+    --dh-radius-pill: 9999px;
+    --dh-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+    --dh-shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.06);
+    --dh-transition: 0.2s ease;
+    --dh-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+/* Recording Mode — dark glass card override
+   ========================================================================== */
+
+.dh-glass.dh-recording-card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgba(26, 26, 26, 0.9);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    color: var(--dh-white);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    transition: background var(--dh-transition);
+}
+
+.dh-glass.dh-recording-card.is-recording {
+    background: linear-gradient(135deg, rgba(26, 26, 26, 0.95) 0%, rgba(45, 21, 0, 0.95) 100%);
+    border-color: var(--dh-orange);
+}
+
+.dh-recording-status {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.dh-recording-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--dh-text-muted);
+    display: inline-block;
+}
+
+.is-recording .dh-recording-dot {
+    background: var(--dh-error);
+    animation: dh-pulse 1.5s infinite;
+}
+
+@keyframes dh-pulse {
+    0%, 100% { opacity: 1; box-shadow: 0 0 0 0 rgba(229, 57, 53, 0.4); }
+    50% { opacity: 0.8; box-shadow: 0 0 0 8px rgba(229, 57, 53, 0); }
+}
+
+.dh-recording-actions {
+    display: flex;
+    gap: 10px;
+}
+
+@media (max-width: 768px) {
+    .dh-glass.dh-recording-card {
+        flex-direction: column;
+        gap: 12px;
+        text-align: center;
+    }
+}
+
+/* Buttons
+   ========================================================================== */
+
+.dh-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: var(--dh-radius-sm);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--dh-transition);
+    text-decoration: none;
+    line-height: 1.4;
+    font-family: var(--dh-font);
+    background: #e0e0e0;
+    color: var(--dh-text);
+}
+
+.dh-btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+
+.dh-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+    line-height: 16px;
+}
+
+.dh-btn-primary {
+    background: var(--dh-orange);
+    color: var(--dh-white);
+}
+
+.dh-btn-primary:hover:not(:disabled) {
+    background: var(--dh-orange-hover);
+    color: var(--dh-white);
+}
+
+.dh-btn-secondary {
+    background: var(--dh-dark);
+    color: var(--dh-white);
+}
+
+.dh-btn-secondary:hover {
+    background: var(--dh-dark-light);
+    color: var(--dh-white);
+}
+
+.dh-btn-stop {
+    background: var(--dh-error);
+    color: var(--dh-white);
+}
+
+.dh-btn-stop:hover {
+    background: #c62828;
+    color: var(--dh-white);
+}
+
+.dh-btn-link {
+    background: none;
+    border: none;
+    padding: 8px 0;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: var(--dh-font);
+    display: inline-block;
+    margin-top: 8px;
+}
+
+.dh-btn-danger {
+    color: var(--dh-error);
+}
+
+.dh-btn-danger:hover {
+    text-decoration: underline;
+}
+
+/* Forms
+   ========================================================================== */
+
+.dh-field {
+    margin-bottom: 14px;
+}
+
+.dh-field label {
+    display: block;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--dh-text);
+    margin-bottom: 4px;
+}
+
+.dh-input {
+    width: 100%;
+    padding: 9px 12px;
+    border: 1px solid #e0e0e0;
+    border-radius: var(--dh-radius-sm);
+    font-size: 14px;
+    font-family: var(--dh-font);
+    transition: border-color var(--dh-transition);
+    box-sizing: border-box;
+    background: var(--dh-white);
+}
+
+.dh-input:focus {
+    outline: none;
+    border-color: var(--dh-orange);
+    box-shadow: 0 0 0 2px rgba(255, 129, 126, 0.15);
+}
+
+.dh-textarea {
+    resize: vertical;
+    min-height: 60px;
+}
+
+/* Tables
+   ========================================================================== */
+
+.dh-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.dh-table th {
+    text-align: left;
+    padding: 10px 14px;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--dh-text-light);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: rgba(0, 0, 0, 0.04);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+}
+
+.dh-table td {
+    padding: 10px 14px;
+    font-size: 13px;
+    color: var(--dh-text);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+
+.dh-table tbody tr:hover {
+    background: rgba(255, 129, 126, 0.04);
+}
+
+.dh-table-muted td {
+    color: var(--dh-text-light);
+}
+
+.dh-empty {
+    text-align: center;
+    color: var(--dh-text-muted) !important;
+    padding: 20px 14px !important;
+    font-style: italic;
+}
+
+/* Tags
+   ========================================================================== */
+
+.dh-tag {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: var(--dh-radius-sm);
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.3px;
+    background: var(--dh-white);
+    border: 1px solid #e0e0e0;
+    color: var(--dh-text-light);
+}
+
+.dh-tag-core {
+    background: #e3f2fd;
+    border-color: #90caf9;
+    color: #1565c0;
+}
+
+.dh-tag-plugin {
+    background: #fff3e0;
+    border-color: #ffcc80;
+    color: #e65100;
+}
+
+.dh-tag-theme {
+    background: #e8f5e9;
+    border-color: #a5d6a7;
+    color: #2e7d32;
+}
+
+.dh-tag-muted {
+    background: #f5f5f5;
+    border-color: #e0e0e0;
+    color: #999;
+}
+
+/* Status
+   ========================================================================== */
+
+.dh-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: var(--dh-radius-pill);
+    font-size: 11px;
+    font-weight: 600;
+}
+
+.dh-status-pending {
+    background: #fff8e1;
+    color: #f57f17;
+}
+
+.dh-status-sent {
+    background: #e8f5e9;
+    color: #2e7d32;
+}
+
+/* Stat
+   ========================================================================== */
+
+.dh-stat {
+    font-size: 14px;
+    color: var(--dh-text);
+    margin-bottom: 14px;
+}
+
+.dh-stat strong {
+    color: var(--dh-orange);
+    font-size: 18px;
+}
+
+/* Collapsible
+   ========================================================================== */
+
+.dh-collapsible-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.dh-collapsible-header h3 {
+    margin: 0;
+}
+
+.dh-toggle-icon {
+    color: var(--dh-text-muted);
+    transition: transform var(--dh-transition);
+}
+
+.dh-collapsible-header.is-open .dh-toggle-icon {
+    transform: rotate(180deg);
+}
+
+.dh-card-muted {
+    opacity: 0.8;
+}
+
+.dh-card-muted:hover {
+    opacity: 1;
+}
+
+/* Text helpers
+   ========================================================================== */
+
+.dh-text-muted {
+    color: var(--dh-text-muted);
+}
+
+/* Toast notification
+   ========================================================================== */
+
+.dh-toast {
+    position: fixed;
+    top: 40px;
+    right: 20px;
+    padding: 14px 24px;
+    border-radius: var(--dh-radius);
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--dh-white);
+    z-index: 999999;
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+    transform: translateX(120%);
+    transition: transform 0.3s ease;
+    font-family: var(--dh-font);
+}
+
+.dh-toast.is-visible {
+    transform: translateX(0);
+}
+
+.dh-toast-success {
+    background: var(--dh-success);
+}
+
+.dh-toast-error {
+    background: var(--dh-error);
+}

@@ -1,0 +1,84 @@
+/* ==========================================================================
+   digihood Admin Branding — Notices & Global Overrides
+   ========================================================================== */
+
+/* Replace WP's default blue accent with brand salmon everywhere it's driven
+   by the --wp-admin-theme-color variable: block editor UI, buttons, focus
+   rings, toggles, range sliders, selected states, links in newer components.
+   Loaded on every admin page, so it applies regardless of the chosen color
+   scheme. */
+body.wp-admin {
+    --wp-admin-theme-color: #ff817e;
+    --wp-admin-theme-color--rgb: 255, 129, 126;
+    --wp-admin-theme-color-darker-10: #e06e6b;
+    --wp-admin-theme-color-darker-10--rgb: 224, 110, 107;
+    --wp-admin-theme-color-darker-20: #c95a57;
+    --wp-admin-theme-color-darker-20--rgb: 201, 90, 87;
+}
+
+/* Admin notices styling */
+.notice {
+    border-left-color: #ff817e !important;
+    border-radius: 4px;
+}
+
+.notice-success {
+    border-left-color: #4caf50 !important;
+}
+
+.notice-error {
+    border-left-color: #e53935 !important;
+}
+
+.notice-warning {
+    border-left-color: #ff9800 !important;
+}
+
+.notice-info {
+    border-left-color: #ff817e !important;
+}
+
+/* digihood branded notice variant */
+.dh-notice {
+    background: #fff8f2;
+    border-left: 4px solid #ff817e !important;
+    padding: 12px 16px;
+}
+
+.dh-notice p {
+    font-size: 13px;
+    color: #333;
+}
+
+/* Dashboard heading tweaks */
+#wpbody-content .wrap > h1 {
+    font-weight: 600;
+}
+
+/* Subtle branding on footer */
+#wpfooter #footer-thankyou a {
+    color: #ff817e;
+    text-decoration: none;
+}
+
+#wpfooter #footer-thankyou a:hover {
+    text-decoration: underline;
+}
+
+/* digihood menu icon — SVG rotated 40deg */
+#adminmenu .toplevel_page_d1g1-plugins .wp-menu-image::before {
+    content: '' !important;
+    display: block !important;
+    width: 20px !important;
+    height: 20px !important;
+    background: url('../icons/digihood_icon-white.svg') no-repeat center !important;
+    background-size: contain !important;
+    transform: translateY(-50%);
+    position: relative;
+    top: 50%;
+    left: 6px;
+}
+
+#adminmenu .toplevel_page_d1g1-plugins .wp-menu-image img {
+    display: none !important;
+}

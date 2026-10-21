@@ -1,0 +1,190 @@
+<?php
+
+namespace Go_Live_Update_Urls;
+
+use Go_Live_Update_Urls\Traits\Singleton;
+
+/**
+ * Facilitate skipping particular rows during
+ * database update.
+ *
+ * Used primarily to handle serialized data, which
+ * can't be updated safely.
+ *
+ * @since  6.5.0
+ */
+class Skip_Rows {
+	use Singleton;
+
+	/**
+	 * Current table ids are being assigned to.
+	 *
+	 * @var string
+	 */
+	protected $table = '';
+
+	/**
+	 * Holds the primary keys for tables,
+	 * so we can reference during our update queries.
+	 *
+	 * @var array
+	 */
+	protected $primary_keys = [];
+
+	/**
+	 * The current id to skip if `skip_row` is called.
+	 *
+	 * @var int
+	 */
+	protected $row_id = 0;
+
+	/**
+	 * Full list of tables and ids to skip.
+	 *
+	 * @var array<string, int[]>
+	 */
+	protected array $skip = [];
+
+
+	/**
+	 * Set the table, which subsequent calls to `skip_row` will
+	 * be assigned to.
+	 *
+	 * @param string $table       - Database table.
+	 * @param string $primary_key - Primary key field for this table.
+	 *
+	 * @return void
+	 */
+	public function set_current_table( $table, $primary_key ) {
+		$this->table = $table;
+		$this->primary_keys[ $table ] = $primary_key;
+	}
+
+
+	/**
+	 * Skip a row in the current table by calling
+	 * `skip_row` after setting this id.
+	 *
+	 * Allows accessing and id down the stack without
+	 * passing it to every level.
+	 *
+	 * @param int $db_id - ID of database table row.
+	 *
+	 * @return void
+	 */
+	public function set_current_row_id( $db_id ): void {
+		$this->row_id = $db_id;
+	}
+
+
+	/**
+	 * Skip a row in the current table.
+	 *
+	 * @return void
+	 */
+	public function skip_current(): void {
+		if ( '' === $this->table || 0 === $this->row_id ) {
+			_doing_it_wrong( __METHOD__, esc_html__( 'You must set a table and DB id before skipping a row.', 'go-live-update-urls' ), '6.5.0' );
+		}
+		if ( ! $this->is_current_skipped() ) {
+			$this->skip[ $this->table ][] = $this->row_id;
+		}
+	}
+
+
+	/**
+	 * Skip the current row and log why, only the first time
+	 * the row is skipped.
+	 *
+	 * @since 7.1.0
+	 *
+	 * @param string $reason - Completes "because ..." in the log.
+	 *
+	 * @return void
+	 */
+	public function skip_current_once( string $reason ): void {
+		if ( $this->is_current_skipped() ) {
+			return;
+		}
+		$this->skip_current();
+		$this->log_unsupported( $reason );
+	}
+
+
+	/**
+	 * Has the current row in the current table been skipped?
+	 *
+	 * @since 7.1.0
+	 *
+	 * @return bool
+	 */
+	public function is_current_skipped(): bool {
+		return isset( $this->skip[ $this->table ] ) && \in_array( $this->row_id, $this->skip[ $this->table ], true );
+	}
+
+
+	/**
+	 * Get any db ids to be skipped for a table.
+	 *
+	 * @param string $table - Database table.
+	 *
+	 * @return int[]|null
+	 */
+	public function get_skipped( $table ): ?array {
+		if ( isset( $this->skip[ $table ] ) && [] !== $this->skip[ $table ] ) {
+			return $this->skip[ $table ];
+		}
+
+		return null;
+	}
+
+
+	/**
+	 * Get the primary key for a table, which was provided
+	 * during `set_current_table`.
+	 *
+	 * @param string $table - Database table.
+	 *
+	 * @return string|null
+	 */
+	public function get_primary_key( $table ) {
+		return $this->primary_keys[ $table ] ?? null;
+	}
+
+
+	/**
+	 * Log information to the PHP Error log about a missing
+	 * class in serialized data.
+	 *
+	 * @since      6.5.4
+	 * @deprecated 7.1.0 Will be removed in version 8.
+	 *
+	 * @param string $class_name - Name of class which does not exist.
+	 *
+	 * @return void
+	 */
+	public function log_error( string $class_name ): void {
+		_deprecated_function( __METHOD__, '7.1.0', __CLASS__ . '::log_unsupported' );
+		$this->log_unsupported( \sprintf( 'it contains an unavailable PHP class named `%s`', $class_name ) );
+	}
+
+
+	/**
+	 * Log information to the PHP Error log about a row skipped
+	 * because its serialized data can't be updated safely.
+	 *
+	 * @since 7.1.0
+	 *
+	 * @param string $reason - Completes "because ..." in the message.
+	 *
+	 * @return void
+	 */
+	public function log_unsupported( string $reason ): void {
+		//phpcs:ignore -- We want to use the PHP error log.
+		\error_log( \vsprintf( 'Go Live skipped row `%s` in the table `%s` because %s.', [
+			$this->row_id,
+			$this->table,
+			$reason,
+		] ) );
+	}
+}

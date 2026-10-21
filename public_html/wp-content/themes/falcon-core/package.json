@@ -1,0 +1,15 @@
+{
+  "name": "falcon-core",
+  "version": "2.0.0",
+  "description": "Falcon Core - WordPress sablona (ACF bloky, Tailwind v4). node_modules slouzi jen k buildu CSS, za behu nejsou potreba.",
+  "private": true,
+  "license": "GPL-2.0-or-later",
+  "scripts": {
+    "dev": "tailwindcss -i assets/src/main.css -o assets/css/main.css --watch",
+    "build": "tailwindcss -i assets/src/main.css -o assets/css/main.css --minify && node build/flatten-layers.js"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.3.3",
+    "tailwindcss": "^4.3.3"
+  }
+}

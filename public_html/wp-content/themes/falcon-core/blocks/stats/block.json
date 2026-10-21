@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "falcon/stats",
+	"title": "Čísla / výhody",
+	"description": "Čtyři klíčové hodnoty s vysvětlením.",
+	"category": "falcon-core",
+	"icon": "chart-bar",
+	"keywords": [ "falcon" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"customClassName": true,
+		"html": false,
+		"mode": true,
+		"jsx": false
+	}
+}

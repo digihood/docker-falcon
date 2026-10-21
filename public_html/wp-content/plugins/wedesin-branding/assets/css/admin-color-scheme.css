@@ -1,0 +1,148 @@
+/* ==========================================================================
+   digihood Admin Color Scheme
+   ========================================================================== */
+
+/* Admin Menu Sidebar */
+#adminmenuback,
+#adminmenuwrap,
+#adminmenu {
+    background: #1a1a1a;
+}
+
+#adminmenu a {
+    color: #cccccc;
+}
+
+#adminmenu li.menu-top:hover,
+#adminmenu li.opensub > a.menu-top,
+#adminmenu li > a.menu-top:focus {
+    color: #ffffff;
+    background: #2a2a2a;
+}
+
+/* Current / active menu item */
+#adminmenu .wp-has-current-submenu .wp-submenu .wp-submenu-head,
+#adminmenu .wp-menu-arrow,
+#adminmenu .wp-menu-arrow div,
+#adminmenu li.current a.menu-top,
+#adminmenu li.wp-has-current-submenu a.wp-has-current-submenu,
+.folded #adminmenu li.current.menu-top,
+.folded #adminmenu li.wp-has-current-submenu {
+    background: #ff817e;
+    color: #ffffff;
+}
+
+/* Submenu */
+#adminmenu .wp-submenu,
+#adminmenu .wp-has-current-submenu .wp-submenu,
+#adminmenu .wp-has-current-submenu.opensub .wp-submenu,
+.folded #adminmenu .wp-has-current-submenu .wp-submenu {
+    background: #2a2a2a;
+}
+
+#adminmenu .wp-submenu a,
+#adminmenu .wp-has-current-submenu .wp-submenu a {
+    color: #cccccc;
+}
+
+#adminmenu .wp-submenu a:hover,
+#adminmenu .wp-submenu a:focus,
+#adminmenu .wp-has-current-submenu .wp-submenu a:hover,
+#adminmenu .wp-has-current-submenu .wp-submenu a:focus {
+    color: #ff817e;
+}
+
+#adminmenu .wp-submenu li.current a {
+    color: #ffffff;
+}
+
+/* Admin Bar */
+#wpadminbar {
+    background: #1a1a1a;
+}
+
+#wpadminbar .ab-item,
+#wpadminbar a.ab-item,
+#wpadminbar > #wp-toolbar span.ab-label,
+#wpadminbar > #wp-toolbar span.noticon {
+    color: #cccccc;
+}
+
+#wpadminbar .ab-top-menu > li:hover > .ab-item,
+#wpadminbar .ab-top-menu > li.hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li:hover > .ab-item,
+#wpadminbar:not(.mobile) .ab-top-menu > li > .ab-item:focus {
+    background: #2a2a2a;
+    color: #ff817e;
+}
+
+#wpadminbar .menupop .ab-sub-wrapper {
+    background: #2a2a2a;
+}
+
+#wpadminbar .quicklinks .menupop ul li a:hover,
+#wpadminbar .quicklinks .menupop ul li a:focus {
+    color: #ff817e;
+}
+
+/* Buttons */
+.wp-core-ui .button-primary {
+    background: #ff817e;
+    border-color: #e06e6b;
+    color: #ffffff;
+}
+
+.wp-core-ui .button-primary:hover,
+.wp-core-ui .button-primary:focus {
+    background: #e06e6b;
+    border-color: #cc5500;
+    color: #ffffff;
+}
+
+/* Links in admin */
+a {
+    color: #ff817e;
+}
+
+a:hover,
+a:active {
+    color: #e06e6b;
+}
+
+/* Focus styles */
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="number"]:focus,
+textarea:focus,
+select:focus {
+    border-color: #ff817e;
+    box-shadow: 0 0 0 1px #ff817e;
+}
+
+input[type="checkbox"]:checked::before {
+    color: #ff817e;
+}
+
+input[type="radio"]:checked::before {
+    background: #ff817e;
+}
+
+/* Update count bubbles */
+#adminmenu .awaiting-mod,
+#adminmenu .update-plugins {
+    background: #ff817e;
+    color: #ffffff;
+}
+
+/* Collapse button */
+#collapse-button {
+    color: #cccccc;
+}
+
+#collapse-button:hover,
+#collapse-button:focus {
+    color: #ff817e;
+}

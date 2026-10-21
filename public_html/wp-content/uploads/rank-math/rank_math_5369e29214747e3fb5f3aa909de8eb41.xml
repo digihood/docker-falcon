@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type="text/xsl" href="//localhost:8080/main-sitemap.xsl"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	<sitemap>
+		<loc>http://localhost:8080/page-sitemap.xml</loc>
+		<lastmod>2026-10-21T09:21:00+00:00</lastmod>
+	</sitemap>
+</sitemapindex>

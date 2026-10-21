@@ -1,0 +1,16 @@
+/*
+Theme Name: Falcon Core
+Theme URI: https://falconcore.cz
+Author: Digihood
+Description: Firemní šablona Falcon Core – mytí fasád, opláštění a prosklení dronem. Stránky se skládají z ACF bloků, styly staví na Tailwindu v4 (zkompilované CSS je v assets/css/main.css, node_modules slouží jen k buildu).
+Version: 2.0.0
+Requires at least: 6.4
+Tested up to: 7.1
+Requires PHP: 8.0
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: falcon-core
+Tags: business, custom-logo, custom-menu, footer-widgets, blocks
+*/
+
+/* Styly webu jsou v assets/css/main.css (build z assets/src/main.css). */

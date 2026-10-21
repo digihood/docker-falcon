@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "falcon/services",
+	"title": "Služby – karty",
+	"description": "Karty služeb s ikonou, popisem a odkazem.",
+	"category": "falcon-core",
+	"icon": "grid-view",
+	"keywords": [ "falcon" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"customClassName": true,
+		"html": false,
+		"mode": true,
+		"jsx": false
+	}
+}

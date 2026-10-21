@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "falcon/hero",
+	"title": "Hero (úvod stránky)",
+	"description": "Velký úvodní panel s nadpisem H1, textem a tlačítky.",
+	"category": "falcon-core",
+	"icon": "cover-image",
+	"keywords": [ "falcon" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"customClassName": true,
+		"html": false,
+		"mode": true,
+		"jsx": false
+	}
+}

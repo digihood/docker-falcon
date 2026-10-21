@@ -1,0 +1,22 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 2,
+	"name": "falcon/compare",
+	"title": "Srovnání (tabulka)",
+	"description": "Porovnání dvou variant, např. dron vs. plošina.",
+	"category": "falcon-core",
+	"icon": "editor-table",
+	"keywords": [ "falcon" ],
+	"acf": {
+		"mode": "preview",
+		"renderTemplate": "render.php"
+	},
+	"supports": {
+		"align": false,
+		"anchor": true,
+		"customClassName": true,
+		"html": false,
+		"mode": true,
+		"jsx": false
+	}
+}

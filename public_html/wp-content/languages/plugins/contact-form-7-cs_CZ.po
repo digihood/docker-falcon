@@ -1,0 +1,1837 @@
+# Translation of Plugins - Contact Form 7 - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - Contact Form 7 - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2026-10-06 01:39:53+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.1.0\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - Contact Form 7 - Stable (latest release)\n"
+
+#. translators: %s: URL to text input area doc
+#: modules/textarea.php:158
+msgid "Generates a form-tag for a <a href=\"%s\">multi-line plain text input area</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">víceřádkovou oblast pro zadávání prostého textu</a>."
+
+#. translators: %s: URL to text fields doc
+#: modules/text.php:262
+msgid "Generates a form-tag for a <a href=\"%s\">telephone number input field</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">pole pro zadání telefonního čísla</a>."
+
+#. translators: %s: URL to text fields doc
+#: modules/text.php:252
+msgid "Generates a form-tag for a <a href=\"%s\">URL input field</a>."
+msgstr "Vytvoří formulářový tag pro vstupní pole URL <a href=\"%s\"></a>."
+
+#. translators: %s: URL to text fields doc
+#: modules/text.php:242
+msgid "Generates a form-tag for an <a href=\"%s\">email address input field</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">pole pro zadání e-mailové adresy</a>."
+
+#. translators: %s: URL to text fields doc
+#: modules/text.php:232
+msgid "Generates a form-tag for a <a href=\"%s\">single-line plain text input field</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">jednorádkové vstupní pole pro prostý text</a>."
+
+#. translators: %s: URL to submit button doc
+#: modules/submit.php:64
+msgid "Generates a form-tag for a <a href=\"%s\">submit button</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">tlačítko pro odeslání</a>."
+
+#: modules/sendinblue/contact-form-properties.php:304
+#: modules/sendinblue/contact-form-properties.php:391
+msgid "Loading&hellip;"
+msgstr "Načítání…"
+
+#. translators: %s: URL to support page about Brevo integration
+#: modules/sendinblue/contact-form-properties.php:96
+msgid "You can set up the Brevo integration here. For details, see <a href=\"%s\">Brevo integration</a>."
+msgstr "Integraci služby Brevo můžete nastavit zde. Podrobnosti najdete na stránce <a href=\"%s\">Integrace služby Brevo</a>."
+
+#. translators: %s: URL to drop-down menu doc
+#: modules/select.php:245
+msgid "Generates a form-tag for a <a href=\"%s\">drop-down menu</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">rozevírací nabídku</a>."
+
+#. translators: %s: URL to quiz field doc
+#: modules/quiz.php:213
+msgid "Generates a form-tag for a <a href=\"%s\">quiz</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">kvíz</a>."
+
+#. translators: %s: URL to number field doc
+#: modules/number.php:215
+msgid "Generates a form-tag for a <a href=\"%s\">number input field</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">pole pro zadání čísla</a>."
+
+#. translators: %s: URL to file uploading field doc
+#: modules/file.php:159
+msgid "Generates a form-tag for a <a href=\"%s\">file uploading field</a>."
+msgstr "Vytvoří tag formuláře pro pole pro nahrávání souborů <a href=\"%s\"></a>."
+
+#. translators: %s: URL to date input field doc
+#: modules/date.php:197
+msgid "Generates a form-tag for a <a href=\"%s\">date input field</a>."
+msgstr "Vytvoří tag formuláře pro <a href=\"%s\">vstupní pole pro datum</a>."
+
+#. translators: %s: URL to radio buttons doc
+#: modules/checkbox.php:383
+msgid "Generates a form-tag for a group of <a href=\"%s\">radio buttons</a>."
+msgstr "Vytvoří tag formuláře pro skupinu <a href=\"%s\">přepínačů</a>."
+
+#. translators: %s: URL to checkboxes doc
+#: modules/checkbox.php:374
+msgid "Generates a form-tag for a group of <a href=\"%s\">checkboxes</a>."
+msgstr "Vytvoří tag formuláře pro skupinu <a href=\"%s\">zaškrtávacích políček</a>."
+
+#. translators: %s: URL to acceptance checkbox doc
+#: modules/acceptance.php:274
+msgid "Generates a form-tag for an <a href=\"%s\">acceptance checkbox</a>."
+msgstr "Vytvoří formulářový tag pro zaškrtávací políčko <a href=\"%s\">pro potvrzení souhlasu</a>."
+
+#: admin/includes/list-table.php:244
+msgid "has config errors"
+msgstr "obsahuje chyby v konfiguraci"
+
+#: admin/includes/list-table.php:225
+msgid "do not store"
+msgstr "neskladujte"
+
+#: admin/includes/list-table.php:213
+msgid "skip mail"
+msgstr "poslat e-mail"
+
+#: admin/includes/list-table.php:201
+msgid "demo mode"
+msgstr "demo režim"
+
+#: admin/includes/list-table.php:189
+msgid "subscribers only"
+msgstr "pouze pro předplatitele"
+
+#. translators: %s: contact form title
+#: admin/includes/list-table.php:146
+msgid "Select %s"
+msgstr "Vyberte %s"
+
+#: admin/includes/list-table.php:97
+msgid "Table ordered by Date."
+msgstr "Tabulka seřazená podle data."
+
+#: admin/includes/list-table.php:91
+msgid "Table ordered by Author."
+msgstr "Tabulka seřazená podle autora."
+
+#: admin/includes/list-table.php:84
+msgid "Table ordered by Title."
+msgstr "Tabulka seřazená podle názvu."
+
+#. translators: %s: URL to the Brevo integration doc page
+#: admin/includes/dashboard.php:308
+msgid "If you use contact forms for customer relationship management, consider activating the <a href=\"%s\"><strong>Brevo</strong></a> integration. With the integration, Contact Form 7 can safely connect to the leading CRM platform in Europe, while protecting user privacy."
+msgstr "Pokud využíváte kontaktní formuláře pro správu vztahů se zákazníky, zvažte aktivaci integrace <a href=\"%s\"><strong>Brevo</strong></a>. Díky této integraci se Contact Form 7 může bezpečně propojit s přední evropskou platformou CRM a zároveň chránit soukromí uživatelů."
+
+#. translators: %s: URL to the Flamingo doc page
+#: admin/includes/dashboard.php:298
+msgid "Contact Form 7 itself doesn&#8217;t have a feature to store submitted messages; therefore, there is always a risk of losing important messages. Contact Form 7 recommends installing a separate plugin called <a href=\"%s\"><strong>Flamingo</strong></a>, which is dedicated to storing messages in the database."
+msgstr "Samotný Contact Form 7 neobsahuje funkci pro ukládání odeslaných zpráv; proto vždy existuje riziko ztráty důležitých zpráv. Contact Form 7 doporučuje nainstalovat samostatný plugin s názvem <a href=\"%s\"><strong>Flamingo</strong></a>, který slouží právě k ukládání zpráv do databáze."
+
+#. translators: %s: URL to the Disallowed list doc page
+#: admin/includes/dashboard.php:278
+msgid "You can also block submissions that contain specific keywords or come from specific IP addresses (<a href=\"%s\"><strong>Disallowed list</strong></a>)."
+msgstr "Můžete také blokovat příspěvky, které obsahují určitá klíčová slova nebo pocházejí z konkrétních IP adres (<a href=\"%s\"><strong>Seznam zakázaných adres</strong></a>)."
+
+#. translators: 1: URL to the Turnstile doc page, 2: URL to the Akismet doc
+#. page
+#: admin/includes/dashboard.php:267
+msgid "To provide effective protection, Contact Form 7 recommends using <a href=\"%1$s\"><strong>Turnstile</strong></a> (good at blocking bots) and <a href=\"%2$s\"><strong>Akismet</strong></a> (good at blocking human spammers) together."
+msgstr "Pro zajištění účinné ochrany doporučuje Contact Form 7 používat společně <a href=\"%1$s\"><strong>Turnstile</strong></a> (účinný při blokování botů) a <a href=\"%2$s\"><strong>Akismet</strong></a> (účinný při blokování lidských spammerů)."
+
+#: admin/includes/dashboard.php:259
+msgid "Spammers target everything. Your contact forms are not an exception."
+msgstr "Spammeři se zaměřují na všechno. Vaše kontaktní formuláře nejsou výjimkou."
+
+#. translators: 1: URL to the docs page, 2: URL to the FAQ page
+#: admin/includes/dashboard.php:240
+msgid "Or, consult the <a href=\"%1$s\">docs</a> and <a href=\"%2$s\">FAQ</a>."
+msgstr "Nebo si přečtěte <a href=\"%1$s\">dokumentaci</a> a <a href=\"%2$s\">často kladené otázky</a>."
+
+#: admin/includes/dashboard.php:230
+msgid "Private support by Codeable experts"
+msgstr "Individuální podpora od odborníků společnosti Codeable"
+
+#: admin/includes/dashboard.php:218
+msgid "Public support forum on WordPress.org"
+msgstr "Veřejné diskusní fórum na WordPress.org"
+
+#: admin/includes/dashboard.php:204
+msgid "Do you need help? These support channels are available:"
+msgstr "Potřebujete pomoc? K dispozici jsou následující kanály podpory:"
+
+#: admin/includes/dashboard.php:184
+msgid "Contact Form 7 official site"
+msgstr "Oficiální stránky Contact Form 7"
+
+#. translators: %s: Contact Form 7 version string
+#: admin/includes/dashboard.php:152
+msgid "Contact Form 7 version %s is running."
+msgstr "Je spuštěna verze %s kontaktního formuláře Form 7."
+
+#. translators: %s: Flamingo version
+#: admin/includes/dashboard.php:139
+msgid "<strong>Flamingo</strong> (version %s) is active"
+msgstr "<strong>Flamingo</strong> (verze %s) je aktivní"
+
+#. translators: %s: service name
+#: admin/includes/dashboard.php:118
+msgid "<strong>%s</strong> integration is active"
+msgstr "<strong>%s</strong> je aktivní integrace"
+
+#. translators: %s: number of contact forms
+#: admin/includes/dashboard.php:76
+msgid "%s Contact form"
+msgid_plural "%s Contact forms"
+msgstr[0] "%s kontaktní formulář"
+msgstr[1] "%s kontaktní formuláře"
+msgstr[2] "%s kontaktních formulářů"
+
+#: admin/includes/dashboard.php:27
+msgid "Save Messages"
+msgstr "Uložit zprávy"
+
+#: admin/includes/dashboard.php:23
+msgid "Spam Protection"
+msgstr "Ochrana proti spamu"
+
+#: admin/includes/dashboard.php:19
+msgid "Get Support"
+msgstr "Získat podporu"
+
+#: admin/includes/dashboard.php:16
+msgid "News"
+msgstr "Novinky"
+
+#: admin/includes/dashboard.php:13
+msgid "At a Glance"
+msgstr "Stručný přehled"
+
+#: admin/edit-contact-form.php:180
+msgid "Shortcodes are only needed in the Classic Editor environment; otherwise, use the Contact Form 7 block in the Block Editor."
+msgstr "Zkratky jsou potřebné pouze v prostředí klasického editoru; v ostatních případech použijte blok Contact Form 7 v blokovém editoru."
+
+#: admin/edit-contact-form.php:161
+msgid "Toggle shortcode"
+msgstr "Přepnout zkrácený kód"
+
+#. translators: 1: URL to announcement post, 2: URL to Brevo integration doc
+#: admin/admin.php:650
+msgid "Contact Form 7 has completed the <a href=\"%1$s\">removal of the Constant Contact integration</a>. We recommend <a href=\"%2$s\">Brevo</a> as an alternative."
+msgstr "Kontaktní formulář 7 dokončil <a href=\"%1$s\">odstranění integrace se službou Constant Contact</a>. Jako alternativu doporučujeme <a href=\"%2$s\">Brevo</a>."
+
+#: admin/admin.php:45
+msgid "Dashboard"
+msgstr "Přehledová obrazovka"
+
+#: admin/admin.php:32 admin/admin.php:44 admin/dashboard.php:14
+msgid "Contact Form 7 Dashboard"
+msgstr "Nástěnka Contact Form 7"
+
+#. translators: %s: URL to the Really Simple CAPTCHA plugin page
+#: modules/really-simple-captcha.php:40
+msgid "<strong>Warning:</strong> The <a href=\"%s\">Really Simple CAPTCHA</a> plugin is not active."
+msgstr "<strong>Upozornění:</strong> Plugin <a href=\"%s\">Really Simple CAPTCHA</a> není aktivní."
+
+#. translators: %s: URL to support page about integration with external APIs
+#: admin/integration.php:41
+msgid "You can expand the possibilities of your contact forms by integrating them with external services. For details, see <a href=\"%s\">Integration with external APIs</a>."
+msgstr "Možnosti kontaktních formulářů můžete rozšířit jejich integrací s externími službami. Podrobnosti najdete v části <a href=\"%s\">Integrace s externími API</a>."
+
+#: admin/includes/editor.php:399
+msgid "Exclude a line from output if all of its mail-tags are blank"
+msgstr "Vyloučit řádek z výstupu, pokud jsou všechny jeho mail-tagy prázdné"
+
+#. translators: %s: URL to support page about the additional settings editor
+#: admin/includes/editor.php:523
+msgid "You can add customization code snippets here. For details, see <a href=\"%s\">Additional settings</a>."
+msgstr "Zde můžete přidat úryvky kódu pro přizpůsobení. Podrobnosti najdete na stránce <a href=\"%s\">Další nastavení</a>."
+
+#. translators: %s: URL to support page about the messages editor
+#: admin/includes/editor.php:462
+msgid "You can edit messages used in various situations here. For details, see <a href=\"%s\">Editing messages</a>."
+msgstr "Zde můžete upravovat zprávy používané v různých situacích. Podrobnosti najdete na stránce <a href=\"%s\">Úprava zpráv</a>."
+
+#. translators: %s: URL to support page about the email template
+#: admin/includes/editor.php:210
+msgid "You can edit the email template here. For details, see <a href=\"%s\">Setting up mail</a>."
+msgstr "Zde můžete upravit šablonu e-mailu. Podrobnosti najdete na <a href=\"%s\">Nastavení e-mailu</a>."
+
+#. translators: %s: URL to support page about the form template
+#: admin/includes/editor.php:89
+msgid "You can edit the form template here. For details, see <a href=\"%s\">Editing form template</a>."
+msgstr "Šablonu formuláře můžete upravit zde. Podrobnosti najdete na stránce <a href=\"%s\">Úprava šablony formuláře</a>."
+
+#: admin/includes/editor.php:39
+msgid "Contact form editor tabs"
+msgstr "Záložky editoru kontaktního formuláře"
+
+#. Author URI of the plugin
+#: wp-contact-form-7.php
+msgid "https://github.com/rocklobster-in/"
+msgstr "https://github.com/rocklobster-in/"
+
+#. Author of the plugin
+#: wp-contact-form-7.php
+msgid "Rock Lobster Inc."
+msgstr "Rock Lobster, s. r. o."
+
+#. translators: %s: Search query.
+#: admin/contact-forms.php:49
+msgid "Search results for: <strong>%s</strong>"
+msgstr "Výsledky hledání pro: <strong>%s</strong>"
+
+#: modules/turnstile/turnstile.php:183
+msgid "Turnstile validation failed."
+msgstr "Ověření turniketu se nezdařilo."
+
+#: modules/turnstile/turnstile.php:178
+msgid "Turnstile token is empty."
+msgstr "Karta do turniketu je prázdná."
+
+#: modules/turnstile/service.php:292
+msgid "Turnstile is active on this site."
+msgstr "Na tomto webu je aktivní turniket."
+
+#: modules/turnstile/service.php:280
+msgid "Cloudflare Turnstile integration"
+msgstr "Integrace služby Cloudflare Turnstile"
+
+#: modules/turnstile/service.php:269
+msgid "Turnstile is Cloudflare&#8217;s smart CAPTCHA alternative, which confirms web visitors are real and blocks unwanted bots without slowing down web experiences for real users."
+msgstr "Turnstile je inteligentní alternativa k systému CAPTCHA od společnosti Cloudflare, která ověřuje, zda jsou návštěvníci webu skuteční lidé, a blokuje nežádoucí roboty, aniž by zpomalovala načítání stránek pro skutečné uživatele."
+
+#: modules/recaptcha/service.php:262 modules/stripe/service.php:146
+#: modules/turnstile/service.php:239
+msgid "<strong>Error:</strong> Invalid key values."
+msgstr "<strong>Chyba:</strong> Neplatné hodnoty klíčů."
+
+#: modules/turnstile/service.php:40
+msgid "Turnstile"
+msgstr "Turniket"
+
+#: modules/constant-contact/constant-contact.php:136
+msgid "The Constant Contact integration has been removed."
+msgstr "Integrace služby Constant Contact byla odstraněna."
+
+#: modules/constant-contact/constant-contact.php:113
+msgid "API configuration cleared."
+msgstr "Konfigurace API vymazána."
+
+#. translators: %s: JSON-formatted array of disallowed HTML
+#: includes/html-formatter.php:472
+msgid "HTML Disallowance: %s"
+msgstr "Zakázaný HTML kód: %s"
+
+#. translators: %s: Invalid HTML tag name
+#: includes/html-formatter.php:428
+msgid "Invalid tag name (%s) is specified."
+msgstr "Bylo zadáno neplatné jméno značky (%s)."
+
+#: includes/filesystem.php:66
+msgid "Could not access filesystem."
+msgstr "Nelze získat přístup k souborovému systému."
+
+#: includes/contact-form-template.php:170
+msgid "Sender&#8217;s message failed to send"
+msgstr "Zpráva odesílatele nebyla odeslána"
+
+#. translators: %s: URL to Turnstile integration doc
+#: admin/admin.php:669
+msgid "<strong>Attention reCAPTCHA users:</strong> Google attempts to make all reCAPTCHA users migrate to reCAPTCHA Enterprise, meaning Google charges you for API calls exceeding the free tier. Contact Form 7 supports <a href=\"%s\">Cloudflare Turnstile</a>, and we recommend it unless you have reasons to use reCAPTCHA."
+msgstr "<strong>Upozornění pro uživatele reCAPTCHA:</strong> Společnost Google se snaží přimět všechny uživatele reCAPTCHA k přechodu na reCAPTCHA Enterprise, což znamená, že vám bude účtovat poplatky za volání API přesahující bezplatný limit. Contact Form 7 podporuje <a href=\"%s\">Cloudflare Turnstile</a> a doporučujeme jej používat, pokud nemáte důvody pro použití reCAPTCHA."
+
+#: admin/admin.php:70 admin/admin.php:71 admin/contact-forms.php:35
+#: admin/edit-contact-form.php:28 admin/edit-contact-form.php:41
+msgid "Add Contact Form"
+msgstr "Přidat kontaktní formulář"
+
+#: modules/stripe/stripe.php:183
+msgid "Invalid Stripe Payment Intent ID detected."
+msgstr "Bylo zjištěno neplatné ID platebního záměru Stripe."
+
+#: modules/textarea.php:155
+msgid "Text area form-tag generator"
+msgstr "Generátor formulářových tagů pro textová pole"
+
+#: modules/textarea.php:154
+msgid "Text area"
+msgstr "Textové pole"
+
+#: modules/text.php:259
+msgid "Telephone number field form-tag generator"
+msgstr "Generátor formulářových značek pro pole telefonního čísla"
+
+#: modules/text.php:258
+msgid "Telephone number field"
+msgstr "Pole pro telefonní číslo"
+
+#: modules/text.php:249
+msgid "URL field form-tag generator"
+msgstr "Generátor formulářových tagů pro pole URL"
+
+#: modules/text.php:248
+msgid "URL field"
+msgstr "Pole URL"
+
+#: modules/text.php:239
+msgid "Email address field form-tag generator"
+msgstr "Generátor formulářových značek pro pole e-mailové adresy"
+
+#: modules/text.php:238
+msgid "Email address field"
+msgstr "Pole e-mailové adresy"
+
+#: modules/text.php:229
+msgid "Text field form-tag generator"
+msgstr "Generátor formulářových značek pro textová pole"
+
+#: modules/submit.php:61
+msgid "Submit button form-tag generator"
+msgstr "Generátor tagu formuláře pro tlačítko „Odeslat“"
+
+#: modules/select.php:242
+msgid "Drop-down menu form-tag generator"
+msgstr "Generátor formulářových značek pro rozbalovací nabídky"
+
+#: modules/select.php:241
+msgid "Drop-down menu"
+msgstr "Rozbalovací nabídka"
+
+#: modules/quiz.php:291
+msgid "The capital of Brazil? | Rio"
+msgstr "Hlavní město Brazílie? | Rio"
+
+#: modules/quiz.php:276
+msgid "One pipe-separated question-answer pair (question|answer) per line."
+msgstr "Na každý řádek jeden pár otázka-odpověď oddělený svislou čárkou (otázka|odpověď)."
+
+#: modules/quiz.php:210
+msgid "Quiz form-tag generator"
+msgstr "Generátor formulářových tagů"
+
+#: modules/number.php:212
+msgid "Number field form-tag generator"
+msgstr "Generátor formulářových značek pro číselná pole"
+
+#: modules/file.php:263
+msgid "In bytes. You can use kb and mb suffixes."
+msgstr "V bajtech. Můžete použít příponu kb a mb."
+
+#: modules/file.php:251
+msgid "File size limit"
+msgstr "Limit velikosti souborů"
+
+#: modules/file.php:225
+msgid "Pipe-separated file types list. You can use file extensions and MIME types."
+msgstr "Seznam typů souborů oddělených čárkami. Můžete použít příponu souborů i typy MIME."
+
+#: modules/file.php:156
+msgid "File uploading field form-tag generator"
+msgstr "Generátor formulářových značek pro pole pro nahrávání souborů"
+
+#: modules/file.php:155
+msgid "File uploading field"
+msgstr "Pole pro nahrávání souborů"
+
+#: modules/date.php:194
+msgid "Date field form-tag generator"
+msgstr "Generátor formulářových značek pro pole „Datum“"
+
+#: modules/checkbox.php:380
+msgid "Radio buttons form-tag generator"
+msgstr "Generátor tagů formulářů pro přepínače"
+
+#: modules/checkbox.php:379
+msgid "Radio buttons"
+msgstr "Přepínače"
+
+#: modules/checkbox.php:371
+msgid "Checkboxes form-tag generator"
+msgstr "Generátor formulářových značek pro zaškrtávací políčka"
+
+#: modules/checkbox.php:370
+msgid "Checkboxes"
+msgstr "Zaškrtávací políčka"
+
+#: modules/acceptance.php:336
+msgid "Put the condition for consent here."
+msgstr "Zde uveďte podmínky pro udělení souhlasu."
+
+#: admin/includes/tag-generator.php:270
+msgid "This checkbox is optional."
+msgstr "Toto zaškrtávací políčko je volitelné."
+
+#: modules/acceptance.php:271
+msgid "Acceptance checkbox form-tag generator"
+msgstr "Generátor formulářových značek pro zaškrtávací políčko „Souhlasím“"
+
+#. translators: %s: mail-tag corresponding to the form-tag
+#: admin/includes/tag-generator.php:620
+msgid "To use the user input in the email, insert the corresponding mail-tag %s into the email template."
+msgstr "Chcete-li použít uživatelský vstup v e-mailu, vložte odpovídající mail-tag %s do šablony e-mailu."
+
+#: admin/includes/tag-generator.php:587
+msgid "The form-tag to be inserted into the form template"
+msgstr "Značka formuláře, která se má vložit do šablony formuláře"
+
+#: admin/includes/tag-generator.php:542
+msgid "Use the first item as a label."
+msgstr "První položku použijte jako popisek."
+
+#: admin/includes/tag-generator.php:523
+msgid ""
+"Option 1\n"
+"Option 2\n"
+"Option 3"
+msgstr ""
+"Možnost 1\n"
+"Možnost 2\n"
+"Možnost 3"
+
+#: admin/includes/tag-generator.php:508
+msgid "One item per line."
+msgstr "Jedna položka na řádek."
+
+#: admin/includes/tag-generator.php:498
+msgid "Selectable values"
+msgstr "Vybrat hodnoty"
+
+#: admin/includes/tag-generator.php:472
+msgid "Use this text as the placeholder."
+msgstr "Tento text použijte jako zástupný."
+
+#: admin/includes/tag-generator.php:376 modules/text.php:318
+#: modules/textarea.php:205
+msgid "Length"
+msgstr "Délka"
+
+#: admin/includes/tag-generator.php:322
+msgid "This field expects the submitter telephone number."
+msgstr "Toto pole očekává telefonní číslo odesílatele."
+
+#: admin/includes/tag-generator.php:319
+msgid "This field expects the submitter URL."
+msgstr "Toto pole očekává URL odesílatele."
+
+#: admin/includes/tag-generator.php:311
+msgid "This field expects the submitter email."
+msgstr "Toto pole očekává e-mail odesílatele."
+
+#: admin/includes/tag-generator.php:303
+msgid "This field expects the submitter name."
+msgstr "Toto pole očekává jméno odesílatele."
+
+#: admin/includes/tag-generator.php:289
+msgid "Field name"
+msgstr "Název pole"
+
+#: admin/includes/tag-generator.php:252
+msgid "This is a required field."
+msgstr "Toto je požadované pole."
+
+#: admin/includes/tag-generator.php:137
+msgid "Close"
+msgstr "Zavřít"
+
+#: admin/includes/tag-generator.php:132
+msgid "Close this dialog box"
+msgstr "Zavřít toto dialogové okno"
+
+#. translators: 1: version, 2: tag generator title
+#: admin/includes/tag-generator.php:55
+msgid "Use of tag generator instances older than version 2 is deprecated. Version %1$s instance (%2$s) detected."
+msgstr "Používání instancí generátoru značek starších než verze 2 je zastaralé. Byla zjištěna instance verze %1$s (%2$s)."
+
+#: modules/checkbox.php:223
+msgid "Too many items are selected."
+msgstr "Je vybráno příliš mnoho položek."
+
+#: includes/contact-form.php:574
+msgid "Invalid action URL is detected."
+msgstr "Byla zjištěna nesprávná adresa URL akce."
+
+#: modules/checkbox.php:304 modules/select.php:217
+msgid "Undefined value was submitted through this field."
+msgstr "Prostřednictvím tohoto pole byla odeslána nedefinovaná hodnota."
+
+#: includes/rest-api.php:366
+msgid "There is no valid unit tag."
+msgstr "Neexistuje žádný platný štítek jednotky."
+
+#: modules/sendinblue/service.php:177
+msgid "Brevo integration"
+msgstr "Integrace Brevo"
+
+#. translators: 1: blog name, 2: blog URL
+#: includes/contact-form-template.php:113
+msgid "This email is a receipt for your contact form submission on our website (%1$s %2$s) in which your email address was used. If that was not you, please ignore this message."
+msgstr "Tento e-mail je potvrzením odeslání kontaktního formuláře na našem webu (%1$s %2$s), ve kterém byla použita vaše e-mailová adresa. Pokud jste to nebyli vy, ignorujte prosím tuto zprávu."
+
+#. translators: 1: blog name, 2: blog URL
+#: includes/contact-form-template.php:79
+msgid "This is a notification that a contact form was submitted on your website (%1$s %2$s)."
+msgstr "Toto je oznámení, že na vašem webu (%1$s %2$s) byl odeslán kontaktní formulář."
+
+#: includes/config-validator/mail.php:236
+#: includes/config-validator/mail.php:326
+msgid "Unsafe email config is used without sufficient protection."
+msgstr "Nebezpečná konfigurace e-mailu je bez dostatečné ochrany."
+
+#: includes/config-validator/validator.php:239
+msgid "Configuration error is detected."
+msgstr "Byla zjištěna chyba konfigurace."
+
+#: modules/sendinblue/service.php:189
+msgid "Brevo is active on this site."
+msgstr "Brevo je na této webové stránce aktivní."
+
+#: modules/sendinblue/contact-form-properties.php:85
+#: modules/sendinblue/contact-form-properties.php:119
+#: modules/sendinblue/service.php:30
+msgid "Brevo"
+msgstr "Brevo"
+
+#: includes/contact-form-functions.php:274
+msgid "Contact form not found."
+msgstr "Kontaktní formulář nebyl nalezen."
+
+#: includes/contact-form-functions.php:273 includes/contact-form.php:573
+#: includes/js/index.js:1
+msgid "Error:"
+msgstr "Chyba:"
+
+#: includes/block-editor/block.json
+msgctxt "block keyword"
+msgid "form"
+msgstr "formulář"
+
+#: includes/block-editor/block.json
+msgctxt "block description"
+msgid "Insert a contact form you have created with Contact Form 7."
+msgstr "Vložte kontaktní formulář, který jste vytvořili pomocí Contact Form 7."
+
+#: includes/block-editor/block.json
+msgctxt "block title"
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
+
+#: modules/select.php:88
+msgid "&#8212;Please choose an option&#8212;"
+msgstr "&#8212;Zvolte prosím možnost&#8212;"
+
+#: modules/akismet/service.php:77
+msgid "Akismet is active on this site."
+msgstr "Akismet je na této webové stránce aktivní."
+
+#: modules/akismet/service.php:54
+msgid "CAPTCHAs are designed to distinguish spambots from humans, and are therefore helpless against human spammers. In contrast to CAPTCHAs, Akismet checks form submissions against the global database of spam; this means Akismet is a comprehensive solution against spam. This is why we consider Akismet to be the centerpiece of the spam prevention strategy."
+msgstr "CAPTCHA je navržena pro rozeznání spam botů od lidí, a neodhalí tedy lidské spammery. Oproti tomu Akismet porovnává zprávy s globální databází spamu, čímž se z něj stává komplexní řešení pro boj se spamem. Proto považujeme Akismet za hlavní nástroj pro prevenci spamu."
+
+#: modules/akismet/akismet.php:307
+msgid "Learn how your data is processed."
+msgstr "Zjistěte jak jsou zpracovávána vaše data."
+
+#: modules/akismet/akismet.php:304
+msgid "This form uses Akismet to reduce spam."
+msgstr "Tento formulář využívá Akismet pro omezení spamu"
+
+#: includes/contact-form.php:647
+msgid "Contact form"
+msgstr "Kontaktní formulář"
+
+#: includes/config-validator/form.php:83
+msgid "Uploadable file size exceeds PHP&#8217;s maximum acceptable size."
+msgstr "Velikost nahrávaného souboru překračuje maximální přípustnou velikost PHP."
+
+#: includes/config-validator/form.php:71
+msgid "Colons are used in form-tag names."
+msgstr "Dvojtečky se používají v názvech formulářových značek."
+
+#: modules/text.php:195
+msgid "Please enter a telephone number."
+msgstr "Zadejte prosím telefonní číslo."
+
+#: modules/text.php:188
+msgid "Please enter a URL."
+msgstr "Vložte prosím URL."
+
+#: modules/text.php:181
+msgid "Please enter an email address."
+msgstr "Zadejte e-mailovou adresu."
+
+#: modules/number.php:189
+msgid "This field has a too large number."
+msgstr "Toto pole má příliš velké číslo."
+
+#: modules/number.php:184
+msgid "This field has a too small number."
+msgstr "Toto pole má příliš malé číslo."
+
+#: modules/number.php:179
+msgid "Please enter a number."
+msgstr "Zadejte prosím číslo."
+
+#: modules/date.php:171
+msgid "This field has a too late date."
+msgstr "Toto pole má příliš pozdní datum."
+
+#: modules/date.php:166
+msgid "This field has a too early date."
+msgstr "Toto pole má příliš brzké datum."
+
+#: modules/date.php:161
+msgid "Please enter a date in YYYY-MM-DD format."
+msgstr "Zadejte datum ve formátu YYYY-MM-DD."
+
+#: includes/rest-api.php:340
+msgid "The request payload format is not supported."
+msgstr "Formát datové části požadavku není podporován."
+
+#. translators: 1: WordPress hook name, 2: version number
+#: includes/functions.php:539
+msgid "Hook %1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s with no alternative available."
+msgstr "Hook %1$s je <strong>zastaralý</strong> od Contact Form 7 verze %2$s bez dostupné alternativy."
+
+#: includes/file.php:105
+msgid "The uploaded file is too large."
+msgstr "Nahraný soubor je příliš velký."
+
+#: includes/contact-form-template.php:201
+msgid "This field has a too short input."
+msgstr "Toto pole má příliš krátký vstup."
+
+#: includes/contact-form-template.php:196
+msgid "This field has a too long input."
+msgstr "Toto pole má příliš dlouhý vstup."
+
+#: includes/contact-form-template.php:191
+msgid "Please fill out this field."
+msgstr "Vyplňte toto pole."
+
+#. translators: 1: PHP function name, 2: version number, 3: alternative
+#. function name
+#: includes/functions.php:495
+msgid "Function %1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+msgstr "Funkce %1$s je od Contact Form 7 verze %2$s <strong>zastaralá</strong>! Použijte místo ní %3$s."
+
+#: includes/integration.php:27
+msgid "Spam protection"
+msgstr "Ochrana proti spamu"
+
+#. translators: Developer debugging message. 1: PHP function name, 2:
+#. Explanatory message, 3: Contact Form 7 version number.
+#: includes/functions.php:579
+msgid "Function %1$s was called incorrectly. %2$s %3$s"
+msgstr "Funkce %1$s byla zavolána nesprávně. %2$s %3$s"
+
+#. translators: 1: blog name, 2: confirmation link
+#: modules/sendinblue/doi.php:85
+msgid ""
+"Hello,\n"
+"\n"
+"This is a confirmation email sent from %1$s.\n"
+"\n"
+"We have received your submission to our web form, according to which you have allowed us to add you to our contact list. But, the process has not yet been completed. To complete it, please click the following link.\n"
+"\n"
+"%2$s\n"
+"\n"
+"If it was not your intention, or if you have no idea why you received this message, please do not click on the link, and ignore this message. We will never collect or use your personal data without your clear consent.\n"
+"\n"
+"Sincerely,\n"
+"%1$s"
+msgstr ""
+"Nazdar,\n"
+"\n"
+"toto je potvrzovací e-mail odeslaný z %1$s.\n"
+"\n"
+"Obdrželi jsme Váš příspěvek do našeho webového formuláře, podle kterého jste nám dovolili přidat Vás do našeho seznamu kontaktů. Tento proces však ještě nebyl dokončen. Pro jeho dokončení klikněte na následující odkaz.\n"
+"\n"
+"%2$s\n"
+"\n"
+"Pokud to nebylo vaším záměrem nebo pokud netušíte, proč jste tuto zprávu obdrželi, neklikejte na odkaz a tuto zprávu ignorujte. Nikdy nebudeme shromažďovat ani používat vaše osobní údaje bez vašeho jasného souhlasu.\n"
+"\n"
+"S pozdravem\n"
+"%1$s"
+
+#. translators: %s: blog name
+#: modules/sendinblue/doi.php:79
+msgid "Opt-in confirmation from %s"
+msgstr "Potvrzení o přihlášení od %s"
+
+#: modules/stripe/stripe.php:382
+msgid "Complete payment"
+msgstr "Dokončit platbu"
+
+#: modules/stripe/stripe.php:367
+msgid "Proceed to checkout"
+msgstr "Pokračovat k pokladně"
+
+#: modules/stripe/stripe.php:251
+msgid "Payment is required. Please pay by credit card."
+msgstr "Je vyžadována platba. Prosíme, zaplaťte platební kartou"
+
+#: includes/integration.php:29
+msgid "Payments"
+msgstr "Platby"
+
+#: modules/stripe/service.php:252
+msgid "Publishable Key"
+msgstr "Publikovatelný klíč"
+
+#: modules/stripe/service.php:225
+msgid "Stripe is not available on this site. It requires an HTTPS-enabled site."
+msgstr "Stripe není na této stránce k dispozici. Vyžaduje server s podporou protokolu HTTPS."
+
+#: modules/stripe/service.php:196
+msgid "Stripe is active on this site."
+msgstr "Stripe je na této webové stránce aktivní."
+
+#: modules/stripe/service.php:184
+msgid "Stripe integration"
+msgstr "Stripe integrace"
+
+#: modules/stripe/service.php:173
+msgid "Stripe is a simple and powerful way to accept payments online. Stripe has no setup fees, no monthly fees, and no hidden costs. Millions of businesses rely on Stripe&#8217;s software tools to accept payments securely and expand globally."
+msgstr "Stripe je jednoduchý a účinný způsob přijímání online plateb. Stripe nemá žádné vstupní poplatky, žádné měsíční poplatky ani skryté náklady. Miliony podniků spoléhá na softwarové nástroje Stripe, aby mohly bezpečně přijímat platby a expandovat na globální úrovni."
+
+#. translators: 1: first name, 2: last name
+#: modules/sendinblue/sendinblue.php:124
+msgctxt "personal name"
+msgid "%1$s %2$s"
+msgstr "%1$s %2$s"
+
+#: includes/rest-api.php:519
+msgid "Unique identifier for the contact form."
+msgstr "Unikátní identifikátor pro kontaktní formulář"
+
+#: includes/config-validator/form.php:59
+msgid "Dots are used in form-tag names."
+msgstr "V názvech značek se používají tečky."
+
+#: modules/stripe/service.php:38
+msgid "Stripe"
+msgstr "Stripe"
+
+#: admin/admin.php:85 admin/integration.php:31
+msgid "Integration with External API"
+msgstr "Integrace s externím API"
+
+#: modules/sendinblue/contact-form-properties.php:458
+msgid "Manage your email templates"
+msgstr "Správa e-mailových šablon"
+
+#: modules/sendinblue/contact-form-properties.php:443
+msgid "You have no active email template yet."
+msgstr "Zatím nemáte žádnou aktivní e-mailovou šablonu."
+
+#: modules/sendinblue/contact-form-properties.php:421
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; Vybrat &mdash;"
+
+#: modules/sendinblue/contact-form-properties.php:406
+msgid "Select an email template:"
+msgstr "Vyberte šablonu e-mailu:"
+
+#: modules/sendinblue/contact-form-properties.php:254
+msgid "Send a welcome email to new contacts"
+msgstr "Odeslat uvítací e-mail novým kontaktům"
+
+#: modules/sendinblue/contact-form-properties.php:224
+#: modules/sendinblue/contact-form-properties.php:236
+msgid "Welcome email"
+msgstr "Uvítací e-mail"
+
+#: modules/sendinblue/contact-form-properties.php:366
+msgid "Manage your contact lists"
+msgstr "Správa seznamů kontaktů"
+
+#: modules/sendinblue/contact-form-properties.php:351
+msgid "You have no contact list yet."
+msgstr "Zatím nemáte žádný seznam kontaktů."
+
+#: modules/sendinblue/contact-form-properties.php:321
+msgid "Select lists to which contacts are added:"
+msgstr "Vybrat seznamy, do kterých se přidávají kontakty:"
+
+#: modules/sendinblue/contact-form-properties.php:187
+msgid "Add form submitters to your contact lists"
+msgstr "Přidávat odesílatele formulářů do seznamů kontaktů"
+
+#: modules/sendinblue/contact-form-properties.php:157
+#: modules/sendinblue/contact-form-properties.php:169
+msgid "Contact lists"
+msgstr "Seznamy kontaktů"
+
+#: modules/sendinblue/service.php:251
+msgid "Save changes"
+msgstr "Uložit změny"
+
+#: modules/sendinblue/service.php:247
+msgctxt "API keys"
+msgid "Remove key"
+msgstr "Odstranit klíč"
+
+#: modules/sendinblue/service.php:226
+msgid "API key"
+msgstr "Klíč API"
+
+#: modules/recaptcha/service.php:331 modules/sendinblue/service.php:208
+#: modules/stripe/service.php:215 modules/turnstile/service.php:311
+msgid "Setup integration"
+msgstr "Nastavit integraci"
+
+#: modules/sendinblue/service.php:166
+msgid "Store and organize your contacts while protecting user privacy on Brevo, the leading CRM & email marketing platform in Europe. Brevo offers unlimited contacts and advanced marketing features."
+msgstr "Ukládejte a organizujte své kontakty a zároveň chraňte soukromí uživatelů na Sendinblue, přední evropské platformě pro CRM a e-mailový marketing. Sendinblue nabízí neomezený počet kontaktů a pokročilé marketingové funkce."
+
+#: modules/sendinblue/service.php:128
+msgid "You have not been authenticated. Make sure the provided API key is correct."
+msgstr "Nebyli jste ověřeni. Zkontrolujte, zda je zadaný klíč API správný."
+
+#: includes/mail.php:316
+msgid "Failed to attach a file. The total file size exceeds the limit of 25 megabytes."
+msgstr "Nepodařilo se připojit soubor. Celková velikost souboru přesahuje limit 25 megabajtů."
+
+#. translators: %s: Attachment file path.
+#: includes/mail.php:296
+msgid "Failed to attach a file. %s is not a readable file."
+msgstr "Připojení souboru se nezdařilo. %s není čitelný soubor."
+
+#. translators: %s: Attachment file path.
+#: includes/mail.php:282
+msgid "Failed to attach a file. %s is not in the allowed directory."
+msgstr "Nepodařilo se připojit soubor. %s není v povoleném adresáři."
+
+#: includes/contact-form-template.php:44
+msgid "Submit"
+msgstr "Odeslat"
+
+#: includes/contact-form-template.php:39
+msgid "(optional)"
+msgstr "(volitelný)"
+
+#. translators: %s: comma separated list of disallowed words
+#: modules/disallowed-list.php:43
+msgid "Disallowed words (%s) are used."
+msgstr "Jsou použita nepovolená slova (%s)."
+
+#: modules/disallowed-list.php:39
+msgid "Disallowed words are used."
+msgstr "Jsou použita nepovolená slova."
+
+#. translators: %s: Contact Form 7 version number.
+#: includes/functions.php:570
+msgid "(This message was added in Contact Form 7 version %s.)"
+msgstr "(Tato zpráva byla přidaná ve verzi kontaktního formuláře 7 %s.)"
+
+#: includes/special-mail-tags.php:25 includes/special-mail-tags.php:107
+#: includes/special-mail-tags.php:173 includes/special-mail-tags.php:242
+#: modules/flamingo.php:313
+msgid "The fourth parameter ($mail_tag) must be an instance of the WPCF7_MailTag class."
+msgstr "Čtvrtý parametr ($ mail_tag) musí být instancí třídy WPCF7_MailTag."
+
+#. translators: time format, see https://www.php.net/date
+#: admin/includes/list-table.php:325
+msgid "g:i a"
+msgstr "g: mj"
+
+#. translators: 1: date, 2: time
+#: admin/includes/list-table.php:321
+msgid "%1$s at %2$s"
+msgstr "%1$s na %2$s"
+
+#: modules/sendinblue/service.php:127 modules/sendinblue/service.php:138
+msgid "Error"
+msgstr "Chyba"
+
+#: includes/config-validator/mail.php:439
+msgid "The total size of attachment files is too large."
+msgstr "Celková velikost souborů příloh je příliš velká."
+
+#: includes/config-validator/form.php:47
+msgid "Unavailable HTML elements are used in the form template."
+msgstr "V šabloně formuláře jsou použity nepovolené prvky HTML."
+
+#: modules/recaptcha/service.php:312
+msgid "reCAPTCHA is active on this site."
+msgstr "Tento web používá reCAPTCHA."
+
+#: modules/recaptcha/recaptcha.php:150
+msgid "reCAPTCHA response token is empty."
+msgstr "Token odpovědi reCAPTCHA je prázdný."
+
+#: includes/submission.php:662
+msgid "Submitted nonce is invalid."
+msgstr "Zadaná hodnota nonce je neplatná."
+
+#: includes/submission.php:653
+msgid "User-Agent string is unnaturally short."
+msgstr "Řetězec User-Agent je nezvykle krátký."
+
+#. translators: 1: value of reCAPTCHA score 2: value of reCAPTCHA threshold
+#: modules/recaptcha/recaptcha.php:157
+msgid "reCAPTCHA score (%1$.2f) is lower than the threshold (%2$.2f)."
+msgstr "reCAPTCHA skóre (%1$.2f) je nižší než stanovená hranice (%2$.2f)."
+
+#: modules/akismet/akismet.php:86
+msgid "Akismet returns a spam response."
+msgstr "Akismet hlásí spam."
+
+#. translators: 1: response code, 2: message, 3: body, 4: URL
+#: includes/functions.php:623
+msgid "HTTP Response: %1$s %2$s %3$s from %4$s"
+msgstr "HTTP Odpověď: %1$s %2$s %3$s od %4$s"
+
+#: modules/recaptcha/service.php:397 modules/stripe/service.php:294
+#: modules/turnstile/service.php:376
+msgid "Save Changes"
+msgstr "Uložit změny"
+
+#: modules/recaptcha/service.php:289
+msgid "reCAPTCHA protects you against spam and other types of automated abuse. With Contact Form 7&#8217;s reCAPTCHA integration module, you can block abusive form submissions by spam bots."
+msgstr "reCAPTCHA vás chrání přes spamem a dalšími automatizovanými způsoby zneužití. S reCAPTCHA integrací pro Contact Form 7 můžete blokovat odesílání zpráv spam boty."
+
+#: modules/recaptcha/service.php:300
+msgid "reCAPTCHA (v3)"
+msgstr "reCAPTCHA (v3)"
+
+#. translators: %s: URL to support page about reCAPTCHA
+#: modules/recaptcha/recaptcha.php:254
+msgid "API keys for reCAPTCHA v3 are different from those for v2; keys for v2 do not work with the v3 API. You need to register your sites again to get new keys for v3. For details, see <a href=\"%s\">reCAPTCHA (v3)</a>."
+msgstr "API klíče pro reCAPTCHA v3 se liší od klíčů pro verzi v2; klíče pro verzi v2 nefungují s API v3. Abyste získali nové klíče pro verzi v3, musíte své weby zaregistrovat znovu. Podrobnosti najdete na stránce <a href=\"%s\">reCAPTCHA (v3)</a>."
+
+#: modules/constant-contact/constant-contact.php:206
+#: modules/recaptcha/service.php:392 modules/stripe/service.php:290
+#: modules/turnstile/service.php:372
+msgctxt "API keys"
+msgid "Remove Keys"
+msgstr "Odstranit klíče"
+
+#: modules/constant-contact/constant-contact.php:191
+msgid "App Secret"
+msgstr "App Secret"
+
+#: modules/constant-contact/constant-contact.php:169
+msgid "API Key"
+msgstr "API klíč"
+
+#: modules/constant-contact/constant-contact.php:56
+msgid "Constant Contact"
+msgstr "Constant Contact"
+
+#: includes/integration.php:28
+msgid "Email marketing"
+msgstr "E-mail marketing"
+
+#: includes/config-validator/mail.php:425
+msgid "It is not allowed to use files outside the wp-content directory."
+msgstr "Není dovoleno používat soubory mimo adresář wp-content."
+
+#: modules/acceptance.php:328
+msgid "Condition"
+msgstr "Podmínka"
+
+#. translators: 1: 'Consented' or 'Not consented', 2: conditions
+#: modules/acceptance.php:244
+msgctxt "mail output for acceptance checkboxes"
+msgid "%1$s: %2$s"
+msgstr "%1$s: %2$s"
+
+#: modules/acceptance.php:228
+msgid "Not consented"
+msgstr "Nesouhlasil"
+
+#: modules/acceptance.php:226
+msgid "Consented"
+msgstr "Souhlasil"
+
+#: includes/submission.php:122
+msgid "Sending mail has been aborted."
+msgstr "Odesílání zprávy bylo přerušeno."
+
+#: includes/contact-form.php:548 includes/contact-form.php:1071
+msgid "This contact form is available only for logged in users."
+msgstr "Tento kontaktní formulář je dostupný jen pro přihlášené uživatele."
+
+#: includes/config-validator/additional-settings.php:21
+msgid "Deprecated settings are used."
+msgstr "Jsou použita zastaralá nastavení."
+
+#: includes/rest-api.php:325
+msgid "There was an error deleting the contact form."
+msgstr "Během mazání kontaktního formuláře se vyskytla chyba."
+
+#: includes/rest-api.php:68 includes/rest-api.php:84 includes/rest-api.php:100
+msgid "You are not allowed to access the requested contact form."
+msgstr "Nemáte oprávnění pro přístup k požadovanému kontaktnímu formuláři."
+
+#: includes/rest-api.php:247 includes/rest-api.php:269
+#: includes/rest-api.php:316 includes/rest-api.php:355
+#: includes/rest-api.php:427 includes/rest-api.php:446
+msgid "The requested contact form was not found."
+msgstr "Požadovaný kontaktní formulář nebyl nalezen."
+
+#: includes/rest-api.php:46
+msgid "You are not allowed to create a contact form."
+msgstr "Nemáte oprávnění pro vytváření kontaktních formulářů. "
+
+#: includes/rest-api.php:199
+msgid "Cannot create existing contact form."
+msgstr "Nelze vytvořit existující kontaktní formulář."
+
+#: includes/rest-api.php:32
+msgid "You are not allowed to access contact forms."
+msgstr "Nemáte oprávnění pro přístup ke kontaktním formulářům."
+
+#: includes/config-validator/mail.php:411
+msgid "Attachment file does not exist at %path%."
+msgstr "Přiložený soubor %path% neexistuje."
+
+#: includes/config-validator/mail.php:312
+msgid "Invalid mailbox syntax is used in the %name% field."
+msgstr "V poli %name% je použit neplatná syntaxe mailové schránky."
+
+#. translators: %names%: a list of form control names
+#: includes/config-validator/form.php:34
+msgid "Unavailable names (%names%) are used for form controls."
+msgstr "Pro prvek formuláře jsou použity nedostupné jména (%names%)."
+
+#: includes/config-validator/mail.php:299
+msgid "There are invalid mail header fields."
+msgstr "Jsou zde neplatná pole záhlaví e-mailu."
+
+#: includes/config-validator/messages.php:31
+msgid "HTML tags are used in a message."
+msgstr "Ve zprávě jsou obsaženy HTML značky."
+
+#: includes/config-validator/mail.php:200
+msgid "Sender email address does not belong to the site domain."
+msgstr "E-mail odesílatele neodpovídá doméně tohoto webu."
+
+#: includes/config-validator/mail.php:182
+#: includes/config-validator/mail.php:219
+msgid "Invalid mailbox syntax is used."
+msgstr "Používáte neplatnou syntaxi mailové schránky."
+
+#: includes/config-validator/mail.php:162
+#: includes/config-validator/mail.php:346
+msgid "There is a possible empty field."
+msgstr "Pravděpodobně jste nevyplnili všechna požadovaná pole."
+
+#: admin/admin.php:550 includes/rest-api.php:211 includes/rest-api.php:280
+msgid "There was an error saving the contact form."
+msgstr "Při ukládání kontaktního formuláře se vyskytla chyba."
+
+#. translators: 1: WordPress hook name, 2: version number, 3: alternative hook
+#. name
+#: includes/functions.php:527
+msgid "Hook %1$s is <strong>deprecated</strong> since Contact Form 7 version %2$s! Use %3$s instead."
+msgstr "Funkce %1$s je od Contact Form 7 verze %2$s <strong>zastaralá</strong>! Použijte místo ní %3$s."
+
+#: includes/config-validator/form.php:18
+msgid "Multiple form controls are in a single label element."
+msgstr "Několik ovládacích prvků formuláře je umístěno uvnitř jediného prvku popisku."
+
+#: admin/includes/config-validator.php:177
+msgid "FAQ about Configuration Validator"
+msgstr "Časté dotazy na ověřování konfigurace"
+
+#: modules/quiz.php:185
+msgid "The answer to the quiz is incorrect."
+msgstr "Odpověď na kvíz je chybná."
+
+#: includes/file.php:110
+msgid "There was an error uploading the file."
+msgstr "Při nahrávání souboru došlo k chybě."
+
+#: includes/file.php:100
+msgid "You are not allowed to upload files of this type."
+msgstr "Nemáte dostatečné oprávění pro nahrávání tohoto typu souborů."
+
+#: includes/file.php:95
+msgid "There was an unknown error uploading the file."
+msgstr "Během nahrávání souboru se vyskytla neznámá chyba."
+
+#: includes/contact-form-template.php:186
+msgid "You must accept the terms and conditions before sending your message."
+msgstr "Před odesláním zprávy musíte souhlasit s podmínkami služby."
+
+#: includes/contact-form-template.php:176
+msgid "One or more fields have an error. Please check and try again."
+msgstr "Některá pole obsahují chybu. Opravte prosím zadané údaje a zkuste to znovu."
+
+#: includes/contact-form-template.php:171
+#: includes/contact-form-template.php:181
+msgid "There was an error trying to send your message. Please try again later."
+msgstr "Během odesílání zprávy nastala chyba. Zkuste to prosím později."
+
+#: includes/contact-form-template.php:166
+msgid "Thank you for your message. It has been sent."
+msgstr "Děkujeme Vám. Vaše zpráva byla úspěšně odeslána."
+
+#. translators: 1: blog name, 2: [your-subject]
+#: includes/contact-form-template.php:54 includes/contact-form-template.php:98
+msgctxt "mail subject"
+msgid "%1$s \"%2$s\""
+msgstr "[%1$s] %2$s"
+
+#: admin/includes/config-validator.php:49
+msgid "Misconfiguration leads to mail delivery failure or other troubles. Validate your contact forms now."
+msgstr "Nesprávná konfigurace může způsobit nedoručení pošty nebo vést k jiným problémům. Ověřte si své kontaktní formuláře hned teď."
+
+#: admin/includes/config-validator.php:55
+msgid "Validate Contact Form 7 Configuration"
+msgstr "Potvrdit nastavení Contact Form 7"
+
+#: admin/admin.php:568
+msgid "Configuration validation completed. No invalid contact form was found."
+msgstr "Ověření konfigurace bylo dokončeno. Nebyly nalezeny žádné neplatné kontaktní formuláře."
+
+#. translators: %s: number of contact forms
+#: admin/admin.php:560
+msgid "Configuration validation completed. %s invalid contact form was found."
+msgid_plural "Configuration validation completed. %s invalid contact forms were found."
+msgstr[0] "Ověření konfigurace bylo dokončeno. Byl nalezen %s neplatný kontaktní formulář."
+msgstr[1] "Ověření konfigurace bylo dokončeno. Byly nalezeny %s neplatné kontaktní formuláře."
+msgstr[2] "Ověření konfigurace bylo dokončeno. Bylo nalezeno %s neplatných kontaktních formulářů."
+
+#: admin/includes/config-validator.php:144
+msgid "Validate Configuration"
+msgstr "Ověření nastavení"
+
+#. translators: %s: number of contact forms
+#: admin/includes/config-validator.php:120
+msgid "Validate %s contact form now"
+msgid_plural "Validate %s contact forms now"
+msgstr[0] "Ověřit %s kontaktní formulář"
+msgstr[1] "Ověřit %s kontaktní formuláře"
+msgstr[2] "Ověřit %s kontaktních formulářů"
+
+#: admin/includes/config-validator.php:77
+msgid "You are not allowed to validate configuration."
+msgstr "Nemáte dostatečné oprávnění pro ověření konfigurace."
+
+#: modules/recaptcha/service.php:368 modules/stripe/service.php:269
+#: modules/turnstile/service.php:351
+msgid "Secret Key"
+msgstr "Secret Key"
+
+#: modules/recaptcha/service.php:351 modules/turnstile/service.php:334
+msgid "Site Key"
+msgstr "Site Key"
+
+#: modules/recaptcha/service.php:269 modules/sendinblue/service.php:147
+#: modules/stripe/service.php:153 modules/turnstile/service.php:246
+msgid "Settings saved."
+msgstr "Nastavení bylo uloženo."
+
+#: modules/sendinblue/service.php:139
+msgid "Invalid key values."
+msgstr "Neplatné klíče."
+
+#: modules/recaptcha/service.php:29
+msgid "reCAPTCHA"
+msgstr "reCAPTCHA"
+
+#. Description of the plugin
+#: wp-contact-form-7.php
+msgid "Just another contact form plugin. Simple but flexible."
+msgstr "Další plugin pro kontaktní formuláře. Jednoduchý, ale flexibilní."
+
+#. Plugin URI of the plugin
+#: wp-contact-form-7.php
+msgid "https://contactform7.com/"
+msgstr "https://contactform7.com/"
+
+#. translators: title of your first contact form. %d: number fixed to '1'
+#: load.php:200
+msgid "Contact form %d"
+msgstr "Kontaktní formulář %d"
+
+#: modules/textarea.php:145
+msgid "text area"
+msgstr "textová oblast"
+
+#: modules/akismet/service.php:22
+msgid "Akismet"
+msgstr "Akismetu"
+
+#: modules/text.php:228
+msgid "Text field"
+msgstr "Textové pole"
+
+#: modules/text.php:214
+msgid "tel"
+msgstr "tel"
+
+#: modules/text.php:213
+msgid "URL"
+msgstr "URL adresa"
+
+#: modules/text.php:212
+msgid "email"
+msgstr "e-mail"
+
+#: modules/text.php:211
+msgid "text"
+msgstr "text"
+
+#: modules/text.php:193
+msgid "Telephone number that the sender entered is invalid"
+msgstr "Telefonní číslo zadané odesílatelem je neplatné"
+
+#: modules/text.php:186
+msgid "URL that the sender entered is invalid"
+msgstr "URL adresa odesílatele je neplatná"
+
+#: modules/text.php:179
+msgid "Email address that the sender entered is invalid"
+msgstr "E-mailová adresa odesílatele je neplatná"
+
+#: modules/submit.php:108
+msgid "Label"
+msgstr "Popisek"
+
+#: modules/submit.php:60
+msgid "Submit button"
+msgstr "Tlačítko Odeslat"
+
+#: modules/submit.php:51
+msgid "submit"
+msgstr "odeslat"
+
+#: modules/select.php:232
+msgid "drop-down menu"
+msgstr "rozbalovací položky"
+
+#: modules/quiz.php:266
+msgid "Questions and answers"
+msgstr "Otázky a odpovědi"
+
+#: modules/quiz.php:209
+msgid "Quiz"
+msgstr "Kvíz"
+
+#: modules/quiz.php:200
+msgid "quiz"
+msgstr "kvíz"
+
+#: modules/quiz.php:183
+msgid "Sender does not enter the correct answer to the quiz"
+msgstr "Odesílatel nezadal správnou odpověď na kontrolní otázku"
+
+#: modules/number.php:254
+msgid "Slider"
+msgstr "Posuvník"
+
+#: modules/number.php:253
+msgid "Spinbox"
+msgstr "Číselník"
+
+#: modules/number.php:211
+msgid "Number field"
+msgstr "Číselné pole"
+
+#: modules/number.php:202
+msgid "number"
+msgstr "číslo"
+
+#: modules/number.php:188
+msgid "Number is larger than maximum limit"
+msgstr "Číslo je větší než maximální limit"
+
+#: modules/number.php:183
+msgid "Number is smaller than minimum limit"
+msgstr "Číslo je menší než minimální limit"
+
+#: modules/number.php:178
+msgid "Number format that the sender entered is invalid"
+msgstr "Formát čísla zadaný odesílatelem je neplatný"
+
+#. translators: %s: the path of the temporary folder
+#: includes/file.php:423
+msgid "This contact form has file uploading fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+msgstr "Tento kontaktní formulář obsahuje funkci nahrávání souborů, ale dočasná složka pro soubory (%s) neexistuje nebo do ní nelze zapisovat. Vytvořte prosím tuto složku nebo ručně změňte její oprávnění."
+
+#: modules/file.php:213
+msgid "Acceptable file types"
+msgstr "Povolené typy souborů"
+
+#: modules/file.php:146
+msgid "file"
+msgstr "soubor"
+
+#: includes/file.php:109
+msgid "Uploading a file fails for PHP error"
+msgstr "Nahrávání souboru selhalo kvůli PHP chybě"
+
+#: includes/file.php:104
+msgid "Uploaded file is too large"
+msgstr "Nahrávaný soubor je příliš velký"
+
+#: includes/file.php:99
+msgid "Uploaded file is not allowed for file type"
+msgstr "Nesprávný typ souboru"
+
+#: includes/file.php:94
+msgid "Uploading a file fails for any reason"
+msgstr "Nahrávání souboru selhalo z neznámé příčiny"
+
+#: admin/includes/tag-generator.php:412
+msgid "Max"
+msgstr "Max"
+
+#: admin/includes/tag-generator.php:393
+msgid "Min"
+msgstr "Min"
+
+#: modules/date.php:245 modules/number.php:263
+msgid "Range"
+msgstr "Rozsah"
+
+#: admin/includes/tag-generator.php:436
+msgid "Default value"
+msgstr "Výchozí hodnota"
+
+#: modules/date.php:193
+msgid "Date field"
+msgstr "Datové pole"
+
+#: modules/date.php:184
+msgid "date"
+msgstr "datum"
+
+#: modules/date.php:170
+msgid "Date is later than maximum limit"
+msgstr "Datum je pozdější než maximální limit"
+
+#: modules/date.php:165
+msgid "Date is earlier than minimum limit"
+msgstr "Datum je dřívější než minimální limit"
+
+#: modules/date.php:160
+msgid "Date format that the sender entered is invalid"
+msgstr "Formát data odesílatele je neplatný"
+
+#: admin/includes/tag-generator.php:562
+msgid "Wrap each item with a label element."
+msgstr "Každý prvek obalte prvkem label."
+
+#: admin/includes/tag-generator.php:219
+msgid "Field type"
+msgstr "Typ pole"
+
+#: modules/checkbox.php:356
+msgid "radio buttons"
+msgstr "jedna odpověď"
+
+#: modules/checkbox.php:355
+msgid "checkboxes"
+msgstr "zaškrtávací políčka"
+
+#: modules/really-simple-captcha.php:294
+msgid "This contact form contains CAPTCHA fields, but the necessary libraries (GD and FreeType) are not available on your server."
+msgstr "Tento kontaktní formulář obsahuje CAPTCHA ověřovací pole, ale potřebné knihovny (GD a FreeType) nejsou na vašem serveru k dispozici."
+
+#. translators: %s: Path to the temporary folder
+#: modules/really-simple-captcha.php:282
+msgid "This contact form contains CAPTCHA fields, but the temporary folder for the files (%s) does not exist or is not writable. You can create the folder or change its permission manually."
+msgstr "Tento kontaktní formulář obsahuje CAPTCHA ověřovací pole, ale dočasná složka pro soubory (%s) neexistuje nebo do ní nelze zapisovat. Vytvořte prosím tuto složku nebo ručně změňte její oprávnění."
+
+#: modules/really-simple-captcha.php:240
+msgid "Your entered code is incorrect."
+msgstr "Vložený kód není správný."
+
+#: modules/really-simple-captcha.php:238
+msgid "The code that sender entered does not match the CAPTCHA"
+msgstr "Ověřovací kód CAPTCHA zadaný odesílatelem není zadaný správně"
+
+#: admin/includes/tag-generator.php:599
+msgid "Insert Tag"
+msgstr "Vložit značku"
+
+#: admin/includes/tag-generator.php:362
+msgid "Class attribute"
+msgstr "Atribut třídy"
+
+#: admin/includes/tag-generator.php:347
+msgid "ID attribute"
+msgstr "atribut ID"
+
+#: modules/acceptance.php:270
+msgid "Acceptance checkbox"
+msgstr "Zaškrtávací políčko souhlasu"
+
+#: modules/acceptance.php:261
+msgid "acceptance"
+msgstr "souhlas"
+
+#. translators: 1: property name, 2: method name
+#: includes/contact-form.php:235
+msgid "<code>%1$s</code> property of a <code>WPCF7_ContactForm</code> object is <strong>no longer accessible</strong>. Use <code>%2$s</code> method instead."
+msgstr "Vlastnost <code>%1$s</code> objektu <code>WPCF7_ContactForm</code> již <strong>není přístupná</strong>. Místo toho použijte metodu <code>%2$s</code>."
+
+#: includes/contact-form.php:116 includes/contact-form.php:439
+msgid "Untitled"
+msgstr "Bez názvu"
+
+#: includes/contact-form.php:54
+msgid "Contact Form"
+msgstr "Kontaktní formulář"
+
+#: includes/contact-form-template.php:200
+msgid "There is a field with input that is shorter than the minimum allowed length"
+msgstr "Formluář obsahuje pole, které nedosahuje minimální potřebné délky textu."
+
+#: includes/contact-form-template.php:195
+msgid "There is a field with input that is longer than the maximum allowed length"
+msgstr "Formluář obsahuje pole, které přesahuje maximální povolenou délku textu."
+
+#: includes/contact-form-template.php:190
+msgid "There is a field that the sender must fill in"
+msgstr "Formulář obsahuje pole, které musí být vyplněno"
+
+#: includes/contact-form-template.php:185
+msgid "There are terms that the sender must accept"
+msgstr "Existují podmínky, které uživatel musí přijmout"
+
+#: includes/contact-form-template.php:180
+msgid "Submission was referred to as spam"
+msgstr "Odpověď formuláře byla označena jako spam"
+
+#: includes/contact-form-template.php:175
+msgid "Validation errors occurred"
+msgstr "Chyba ověření."
+
+#: includes/contact-form-template.php:165
+msgid "Sender&#8217;s message was sent successfully"
+msgstr "Zpráva odesílatele byla úspěšně odeslána"
+
+#: includes/contact-form-template.php:74 includes/contact-form-template.php:108
+msgid "Message Body:"
+msgstr "Zpráva:"
+
+#. translators: %s: [your-subject]
+#: includes/contact-form-template.php:71
+msgid "Subject: %s"
+msgstr "Předmět: %s"
+
+#. translators: %s: [your-name] [your-email]
+#: includes/contact-form-template.php:66
+msgid "From: %s"
+msgstr "Od: %s"
+
+#: modules/submit.php:30
+msgid "Send"
+msgstr "Odeslat"
+
+#: includes/contact-form-template.php:43
+msgid "Your message"
+msgstr "Vaše zpráva"
+
+#: includes/contact-form-template.php:41
+msgid "Your email"
+msgstr "Váš e-mail"
+
+#: includes/contact-form-template.php:40
+msgid "Your name"
+msgstr "Vaše jméno"
+
+#. translators: %s: title of form-tag
+#: admin/includes/tag-generator.php:85
+msgid "Form-tag Generator: %s"
+msgstr "Generátor formulářových značek: %s"
+
+#: admin/includes/help-tabs.php:99
+msgid "For more information:"
+msgstr "Pro více informací:"
+
+#: admin/includes/help-tabs.php:91
+msgid "Any information you provide will not be shared with service providers without your authorization."
+msgstr "Žádné vámi poskytnuté údaje nebudou sdíleny s poskytovateli služeb bez vaší předchozí autorizace."
+
+#: admin/includes/help-tabs.php:90
+msgid "You may need to first sign up for an account with the service that you plan to use. When you do so, you would need to authorize Contact Form 7 to access the service with your account."
+msgstr "Je možné, že si budete muset nejprve vytvořit účet u služby, kterou hodláte použít. Poté však nejprve budete muset autorizovat plugin Contact Form 7 k přístupu ke službě pod vašim účtem."
+
+#: admin/includes/help-tabs.php:89
+msgid "On this screen, you can manage services that are available through Contact Form 7. Using API will allow you to collaborate with any services that are available."
+msgstr "Na této stránce můžete spravovat služby, které jsou dostupné pro plugin Contact Form 7. Použitím API můžete spolupracovat s jakýmikoliv službami, které jsou k dispozici."
+
+#: admin/includes/help-tabs.php:87
+msgid "There are also special mail-tags that have specific names, but do not have corresponding form-tags. They are used to represent meta information of form submissions like the submitter&#8217;s IP address or the URL of the page."
+msgstr "Jsou zde také speciální e-mailové značky, které mají specifické názvy, ale nemají odpovídající formulářové značky. Používají se pro metadata odpovědí formuláře jako je IP adresa respondenta nebo URL adresa stránky."
+
+#: admin/includes/help-tabs.php:86
+msgid "A mail-tag is also a short code enclosed in square brackets that you can use in every Mail and Mail (2) field. A mail-tag represents a user input value through an input field of a corresponding form-tag."
+msgstr "E-mailová značka je také krátký kód uzavřený v hranatých závorkách, který můžete vložit do každého pole v sekci e-mail a e-mail (2). E-mailová značka představuje hodnotu, kterou zadal uživatel pomocí vstupního pole příslušné formulářové značky."
+
+#: admin/includes/help-tabs.php:84
+msgid "While form-tags have a comparatively complex syntax, you do not need to know the syntax to add form-tags because you can use the straightforward tag generator (<strong>Generate Tag</strong> button on this screen)."
+msgstr "Přestože mají formulářové značky poměrně složitou syntaxi, vůbec ji nemusíte znát, protože jednotlivé značky můžete vytvářet pomocí jednoduchého nástroje na tvorbu formulářových značek (viz. odpovídající tlačítka na této stránce)."
+
+#: admin/includes/help-tabs.php:83
+msgid "A form-tag is a short code enclosed in square brackets used in a form content. A form-tag generally represents an input field, and its components can be separated into four parts: type, name, options, and values. Contact Form 7 supports several types of form-tags including text fields, number fields, date fields, checkboxes, radio buttons, menus, file-uploading fields, CAPTCHAs, and quiz fields."
+msgstr "Formulářová značka je krátký kód uzavřený v hranatých závorkách, který se vkládá do obsahu formuláře. Obecně formulářová značka představuje jedno vstupní pole formuláře a může se skládat ze 4 částí: typ, jméno, možnosti a hodnoty. Plugin Contact Form 7 podporuje několik typů značek, včetně těch pro textová, číselná a datová pole, zaškrtávací políčka, přepínače, menu, pole pro nahrávání souborů, CAPTCHA a kvízy."
+
+#: admin/includes/help-tabs.php:81
+msgid "<strong>Additional Settings</strong> provides a place where you can customize the behavior of this contact form by adding code snippets."
+msgstr "<strong>Další nastavení</strong> poskytuje prostor pro vložení různých fragmentů kódu, kterými si můžete přizpůsobit chování tohoto kontaktního formuláře."
+
+#: admin/includes/help-tabs.php:80
+msgid "In <strong>Messages</strong>, you can edit various types of messages used for this contact form. These messages are relatively short messages, like a validation error message you see when you leave a required field blank."
+msgstr "Ve <strong>Zprávách</strong>můžete upravit mnoho typů  zpráv použitých pro tento kontaktní formulář. Tyto zprávy jsou poměrně kráté, jako např. chybová zpráva , kterou uvidíte když nevypníte požadované pole."
+
+#: admin/includes/help-tabs.php:79
+msgid "<strong>Mail (2)</strong> is an additional mail template that works similar to Mail. Mail (2) is different in that it is sent only when Mail has been sent successfully."
+msgstr "<strong>E-mail (2)</strong> je dodatečná e-mailová šablona, která funguje stejně jako e-mail. Rozdíl je v tom, že e-mail (2) se odešle pouze pokud byl e-mail úspěšně odeslán."
+
+#: admin/includes/help-tabs.php:78
+msgid "<strong>Mail</strong> manages a mail template (headers and message body) that this contact form will send when users submit it. You can use Contact Form 7&#8217;s mail-tags here."
+msgstr "<strong>E-mail</strong> představuje šablonu e-mailové zprávy (záhlaví a tělo zprávy), která se zašle jakmile uživatel odešle tento kontaktní formulář. Můžete zde použít e-mailové značky pluginu Contact Form 7."
+
+#: admin/includes/help-tabs.php:77
+msgid "<strong>Form</strong> is a content of HTML form. You can use arbitrary HTML, which is allowed inside a form element. You can also use Contact Form 7&#8217;s form-tags here."
+msgstr "<strong>Formulář</strong> představuje HTML obsah formuláře. Můžete použít libovolný HTML kód, který je povolený uvnitř prvku form. Můžete zde použít také formulářové značky pluginu Contact Form 7."
+
+#: admin/includes/help-tabs.php:76
+msgid "<strong>Title</strong> is the title of a contact form. This title is only used for labeling a contact form, and can be edited."
+msgstr "<strong>Název</strong> představuje název kontaktního formuláře. Tento název se používá jen pro pojmenování kontaktního formuláře a lze ho kdykoli změnit."
+
+#: admin/includes/help-tabs.php:75
+msgid "On this screen, you can edit a contact form. A contact form is comprised of the following components:"
+msgstr "Na této stránce můžete upravit kontaktní formulář. Každý kontaktní formulář se skládá z následujících částí:"
+
+#: admin/includes/help-tabs.php:73
+msgid "<strong>Duplicate</strong> - Clones that contact form. A cloned contact form inherits all content from the original, but has a different ID."
+msgstr "<strong>Duplikovat</strong> - Vytvoří kopii zvoleného kontaktního formuláře. Kopie bude mít naprosto stejný obsah jako původní formulář, ale bude mít odlišné ID."
+
+#: admin/includes/help-tabs.php:72
+msgid "<strong>Edit</strong> - Navigates to the editing screen for that contact form. You can also reach that screen by clicking on the contact form title."
+msgstr "<strong>Upravit</strong> - Odkazuje na administrační stránku úprav zvoleného kontaktního formuláře. Na tuto stránku se také dostanete kliknutím na název kontaktního formuláře."
+
+#: admin/includes/help-tabs.php:71
+msgid "Hovering over a row in the contact forms list will display action links that allow you to manage your contact form. You can perform the following actions:"
+msgstr "Přejetím přes řádek v přehledu formulářů zobrazíte odkazy akcí, které vám umožní spravovat váš kontaktní formulář. Můžete provést následující akce:v"
+
+#: admin/includes/help-tabs.php:46
+msgid "Mail-tags"
+msgstr "E-mailové značky"
+
+#: admin/includes/help-tabs.php:40
+msgid "Form-tags"
+msgstr "Formulářové značky"
+
+#: admin/includes/help-tabs.php:24
+msgid "Available Actions"
+msgstr "Dostupné akce"
+
+#: admin/includes/help-tabs.php:18 admin/includes/help-tabs.php:34
+#: admin/includes/help-tabs.php:56
+msgid "Overview"
+msgstr "Přehled"
+
+#: admin/includes/editor.php:435
+msgid "File attachments"
+msgstr "Přílohy"
+
+#: admin/includes/editor.php:419
+msgid "Use HTML content type"
+msgstr "Použít v obsahu HTML"
+
+#: admin/includes/editor.php:362
+msgid "Message body"
+msgstr "Obsah zprávy"
+
+#: admin/includes/editor.php:331
+msgid "Additional headers"
+msgstr "Doplňující záhlaví"
+
+#: admin/includes/editor.php:303 includes/contact-form-template.php:42
+msgid "Subject"
+msgstr "Předmět"
+
+#: admin/includes/editor.php:275
+msgid "From"
+msgstr "Od"
+
+#: admin/includes/editor.php:247
+msgid "To"
+msgstr "Komu"
+
+#: admin/includes/editor.php:219
+msgid "In the following fields, you can use these mail-tags:"
+msgstr "V následujících polích můžete použít následující e-mailové značky:"
+
+#: admin/includes/editor.php:196
+msgid "Mail (2) is an additional mail template often used as an autoresponder."
+msgstr "E-mail (2) je doplňující šablona e-mailu, která se často používá pro automatické odpovědi."
+
+#: admin/includes/editor.php:135
+msgid "Use Mail (2)"
+msgstr "Použít E-mail (2)"
+
+#: admin/includes/editor.php:134
+msgid "Mail (2)"
+msgstr "E-mail (2)"
+
+#. translators: date format, see https://www.php.net/date
+#: admin/includes/list-table.php:323
+msgid "Y/m/d"
+msgstr "j. n. Y"
+
+#. translators: %s: title of contact form
+#: admin/includes/list-table.php:172
+msgid "Edit &#8220;%s&#8221;"
+msgstr "Upravit &#8222;%s&#8220;"
+
+#: admin/includes/list-table.php:268
+msgid "Edit"
+msgstr "Upravit"
+
+#: admin/includes/list-table.php:74 admin/includes/list-table.php:96
+msgid "Date"
+msgstr "Datum"
+
+#: admin/includes/list-table.php:73 admin/includes/list-table.php:90
+msgid "Author"
+msgstr "Autor"
+
+#: admin/includes/list-table.php:72 admin/includes/list-table.php:83
+#: includes/block-editor/index.js:1
+msgid "Title"
+msgstr "Název"
+
+#: admin/edit-contact-form.php:385 admin/includes/editor.php:532
+msgid "Additional Settings"
+msgstr "Další nastavení"
+
+#. translators: %d: number of additional settings
+#: admin/edit-contact-form.php:382
+msgid "Additional Settings (%d)"
+msgstr "Další nastavení (%d)"
+
+#: admin/edit-contact-form.php:362 admin/includes/editor.php:480
+msgid "Messages"
+msgstr "Zprávy"
+
+#: admin/edit-contact-form.php:358 admin/includes/editor.php:143
+msgid "Mail"
+msgstr "E-mail"
+
+#: admin/edit-contact-form.php:354 admin/includes/editor.php:96
+msgid "Form"
+msgstr "Formulář"
+
+#: admin/includes/help-tabs.php:102
+msgid "Support"
+msgstr "Podpora"
+
+#: admin/includes/help-tabs.php:101
+msgid "FAQ"
+msgstr "Nejčastější dotazy"
+
+#: admin/includes/help-tabs.php:100
+msgid "Docs"
+msgstr "Dokumentace"
+
+#: admin/edit-contact-form.php:299 admin/edit-contact-form.php:303
+#: admin/includes/list-table.php:107
+msgid "Delete"
+msgstr "Smazat"
+
+#: admin/edit-contact-form.php:264 admin/edit-contact-form.php:268
+#: admin/includes/list-table.php:288
+msgid "Duplicate"
+msgstr "Duplikovat"
+
+#: admin/edit-contact-form.php:224
+msgid "Status"
+msgstr "Stav"
+
+#: admin/edit-contact-form.php:139 admin/edit-contact-form.php:140
+msgid "Enter title here"
+msgstr "Zadejte název"
+
+#: admin/edit-contact-form.php:250 admin/edit-contact-form.php:254
+#: admin/edit-contact-form.php:319 admin/edit-contact-form.php:323
+msgid "Save"
+msgstr "Uložit"
+
+#: admin/admin.php:634
+msgid "You are not allowed to edit this contact form."
+msgstr "Nemáte dostatečné oprávnění pro úpravu tohoto kontaktního formuláře."
+
+#: modules/akismet/service.php:65
+msgid "Spam filtering with Akismet"
+msgstr "Filtrování spamu pomocí Akismet"
+
+#. translators: 1: version of Contact Form 7, 2: version of WordPress, 3: URL
+#: admin/admin.php:612
+msgid "<strong>Contact Form 7 %1$s requires WordPress %2$s or higher.</strong> Please <a href=\"%3$s\">update WordPress</a> first."
+msgstr "<strong>Contact Form 7 %1$s vyžaduje verzi WordPressu %2$s nebo vyšší.</strong> Aktualizujte prosím verzi <a href=\"%3$s\">WordPressu</a>."
+
+#: admin/admin.php:594
+msgid "Settings"
+msgstr "Nastavení"
+
+#: admin/admin.php:547
+msgid "Contact form deleted."
+msgstr "Kontaktní formulář byl smazán."
+
+#: admin/admin.php:545
+msgid "Contact form saved."
+msgstr "Kontaktní formulář byl uložen."
+
+#: admin/admin.php:543
+msgid "Contact form created."
+msgstr "Kontaktní formulář byl vytvořen."
+
+#: admin/contact-forms.php:83
+msgid "Search Contact Forms"
+msgstr "Vyhledat kontaktní formuláře"
+
+#: admin/admin.php:416
+msgid "Error in deleting."
+msgstr "Během mazání se vyskytla chyba."
+
+#: admin/admin.php:410
+msgid "You are not allowed to delete this item."
+msgstr "Nemáte oprávnění pro smazání této položky."
+
+#: admin/admin.php:312 admin/admin.php:365
+msgid "You are not allowed to edit this item."
+msgstr "Nemáte dostatečné oprávnění pro úpravu této položky."
+
+#: admin/admin.php:86
+msgid "Integration"
+msgstr "Integrace"
+
+#: admin/admin.php:58 admin/admin.php:59 admin/contact-forms.php:26
+#: includes/contact-form.php:53
+msgid "Contact Forms"
+msgstr "Přehled formulářů"
+
+#: admin/admin.php:57 admin/edit-contact-form.php:29
+msgid "Edit Contact Form"
+msgstr "Upravit kontaktní formulář"
+
+#: admin/admin.php:33
+msgid "Contact"
+msgstr "Kontakt"
+
+#. Plugin Name of the plugin
+#: wp-contact-form-7.php modules/flamingo.php:222
+msgid "Contact Form 7"
+msgstr "Contact Form 7"
